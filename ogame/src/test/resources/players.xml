@@ -1,0 +1,2170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<players xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="https://s136-us.ogame.gameforge.com/api/xsd/players.xsd"
+	timestamp="1494166214" serverId="us136">
+	<player id="104946" name="pitdingo" alliance="73" />
+	<player id="1" name="Legor" status="a" />
+	<player id="100000" name="GameAdmin" status="a" />
+	<player id="100003" name="comagf" status="a" />
+	<player id="100004" name="OGameTeam" status="a" />
+	<player id="100005" name="OGameTech" status="a" />
+	<player id="100006" name="morcillanegra" status="I" />
+	<player id="100007" name="Amare" />
+	<player id="100009" name="LT Smash" status="v" />
+	<player id="100010" name="storm" status="vI" />
+	<player id="100011" name="Negan" status="I" alliance="1" />
+	<player id="100012" name="Doctor" alliance="5" />
+	<player id="100014" name="PENNYWISE" status="vI" />
+	<player id="100015" name="Oxy" alliance="95" />
+	<player id="100018" name="Promo" alliance="34" />
+	<player id="100021" name="Dox" status="I" />
+	<player id="100022" name="Lucky" status="i" />
+	<player id="100023" name="JKelin" status="i" />
+	<player id="100025" name="maxi" status="I" />
+	<player id="100027" name="destroyer" status="vI" />
+	<player id="100029" name="lenu" status="i" />
+	<player id="100030" name="ALONE" status="vi" />
+	<player id="100031" name="Criminal Rabbit" alliance="5" />
+	<player id="100032" name="mikiM" status="i" />
+	<player id="100033" name="angel" status="i" />
+	<player id="100034" name="3kings" status="i" />
+	<player id="100036" name="JaNkO" status="i" />
+	<player id="100038" name="wiater" status="I" />
+	<player id="100039" name="zilot" />
+	<player id="100040" name="edoo" status="i" />
+	<player id="100041" name="yam8" status="i" />
+	<player id="100042" name="lol" status="vI" />
+	<player id="100043" name="VAres" status="i" />
+	<player id="100044" name="Vicegerent Celestial" alliance="8" />
+	<player id="100045" name="prc69" status="i" />
+	<player id="100046" name="Nenadjebivi" status="I" />
+	<player id="100047" name="spread" status="i" />
+	<player id="100048" name="Bl4cK" alliance="95" />
+	<player id="100050" name="Lord Lyon" status="I" />
+	<player id="100051" name="Doge" status="i" />
+	<player id="100053" name="LEGA" status="i" alliance="20" />
+	<player id="100055" name="Bandit Dawn" status="I" />
+	<player id="100056" name="Battousai" status="I" />
+	<player id="100057" name="Admiral Space" status="I" />
+	<player id="100059" name="azura" status="vI" />
+	<player id="100061" name="huany" status="i" />
+	<player id="100062" name="PinkFloyd" status="a" />
+	<player id="100063" name="Hunter of Shinajps" alliance="6" />
+	<player id="100064" name="Nera5" status="i" />
+	<player id="100065" name="Dadino" alliance="5" />
+	<player id="100066" name="Mr Rude" alliance="82" />
+	<player id="100067" name="Crazy" alliance="8" />
+	<player id="100068" name="SRX" alliance="6" />
+	<player id="100069" name="HydroGen" alliance="95" />
+	<player id="100071" name="Lanfear" status="I" />
+	<player id="100072" name="mrlyle" status="v" alliance="7" />
+	<player id="100073" name="xobid" status="vI" />
+	<player id="100074" name="n0M3rc1" status="i" />
+	<player id="100076" name="LAB_TECH" status="v" alliance="42" />
+	<player id="100077" name="Emigrato male" status="vI" />
+	<player id="100078" name="Kaporal" alliance="34" />
+	<player id="100079" name="Queen Leo" status="a" />
+	<player id="100080" name="Deathstroke" status="i" alliance="7" />
+	<player id="100081" name="Procurator Altair" status="v"
+		alliance="7" />
+	<player id="100082" name="neko iz mase" status="I" />
+	<player id="100083" name="Apoc" status="vI" />
+	<player id="100085" name="pampoo" alliance="7" />
+	<player id="100087" name="Atakan" status="I" />
+	<player id="100088" name="Deadshot" alliance="7" />
+	<player id="100089" name="Gol" alliance="95" />
+	<player id="100090" name="deadlysilenceil" status="v" alliance="8" />
+	<player id="100091" name="ReFLeX" alliance="95" />
+	<player id="100092" name="Jax Teller" status="v" alliance="6" />
+	<player id="100093" name="Chief Apollo" status="I" />
+	<player id="100095" name="Vans" status="v" alliance="6" />
+	<player id="100097" name="Vicegerent Deneb" status="I" />
+	<player id="100098" name="deadparrot" alliance="82" />
+	<player id="100099" name="max" status="i" />
+	<player id="100102" name="BananaX" />
+	<player id="100103" name="bullet" status="vi" />
+	<player id="100104" name="Ozmo" alliance="8" />
+	<player id="100105" name="Carebear" alliance="34" />
+	<player id="100106" name="fonteniubb" alliance="5" />
+	<player id="100107" name="Sghimbo" alliance="5" />
+	<player id="100109" name="D3athStalk3r" status="I" />
+	<player id="100110" name="Czar Sattelite" status="v" />
+	<player id="100111" name="Iso" status="I" />
+	<player id="100112" name="Huchting" status="vi" />
+	<player id="100113" name="Reborn" alliance="8" />
+	<player id="100114" name="CrazyCarl" status="v" alliance="52" />
+	<player id="100115" name="Deerhunter" status="I" />
+	<player id="100116" name="Cara of Borg" status="i" />
+	<player id="100117" name="Riel" status="I" />
+	<player id="100118" name="Dr_Game" status="i" />
+	<player id="100119" name="Fingerplay" status="I" />
+	<player id="100120" name="Proconsul Spica" status="I" />
+	<player id="100121" name="Finansek" status="i" />
+	<player id="100122" name="Commander Xanthus" status="I" />
+	<player id="100123" name="CaptainMCD" status="i" alliance="57" />
+	<player id="100124" name="Engineer Aerglo" status="i" />
+	<player id="100126" name="ApeVybz" alliance="34" />
+	<player id="100127" name="Jassol" status="i" />
+	<player id="100128" name="Attacker127" status="I" alliance="11" />
+	<player id="100129" name="Maslan" status="I" />
+	<player id="100130" name="LiceLinen" alliance="95" />
+	<player id="100132" name="Killacorner" alliance="39" />
+	<player id="100136" name="Sinterklass" alliance="52" />
+	<player id="100137" name="Yuss" status="I" />
+	<player id="100138" name="doors" alliance="95" />
+	<player id="100139" name="Asmodeus" status="vi" />
+	<player id="100140" name="Cytrons" alliance="95" />
+	<player id="100141" name="Ddubbsmax" alliance="8" />
+	<player id="100142" name="PiggyPie" status="i" alliance="12" />
+	<player id="100143" name="Kelwing" status="i" alliance="52" />
+	<player id="100144" name="Engineer Cosmos" status="vi" />
+	<player id="100145" name="President Snow" status="i" alliance="52" />
+	<player id="100146" name="Thundersheep" status="a" />
+	<player id="100147" name="Felix451" status="vi" />
+	<player id="100148" name="Doom" alliance="8" />
+	<player id="100149" name="eldi" alliance="6" />
+	<player id="100150" name="DiscoShivaSML" />
+	<player id="100151" name="Senator chuck" status="I" />
+	<player id="100152" name="Renegade Transit" status="i" />
+	<player id="100153" name="Vatreni" status="i" />
+	<player id="100154" name="Admiral Phoenix" alliance="52" />
+	<player id="100155" name="Amok The Mad" status="v" />
+	<player id="100156" name="Miyamoto musashi" status="i" />
+	<player id="100157" name="wilkatis" alliance="8" />
+	<player id="100158" name="Alderwind" status="I" />
+	<player id="100160" name="cronus" alliance="32" />
+	<player id="100161" name="Serra" status="vi" />
+	<player id="100162" name="00000000" status="I" alliance="18" />
+	<player id="100165" name="Sparta241" status="vi" alliance="42" />
+	<player id="100167" name="high" status="I" />
+	<player id="100168" name="Lord Jupiter" status="vi" alliance="52" />
+	<player id="100169" name="rand" status="I" />
+	<player id="100170" name="aerofox83" status="i" alliance="52" />
+	<player id="100171" name="Shiva" alliance="34" />
+	<player id="100172" name="Vicegerent Columbo" status="I" />
+	<player id="100173" name="anthar" status="I" alliance="17" />
+	<player id="100174" name="Plague" status="v" alliance="73" />
+	<player id="100175" name="StannerHawk" status="vi" />
+	<player id="100176" name="Bandit Archer" status="I" />
+	<player id="100177" name="Baghla" status="vi" />
+	<player id="100178" name="OmgWhat" status="v" alliance="55" />
+	<player id="100179" name="EnemyEngine" status="i" />
+	<player id="100180" name="KasseR" status="v" />
+	<player id="100181" name="Senator Gliese" />
+	<player id="100182" name="serkanican" status="I" />
+	<player id="100184" name="Captain Spica" status="v" />
+	<player id="100185" name="Sarciel" alliance="8" />
+	<player id="100186" name="charlessmith" alliance="52" />
+	<player id="100188" name="Gloups808" />
+	<player id="100191" name="Jiulia" alliance="6" />
+	<player id="100192" name="facktor" status="i" />
+	<player id="100193" name="Koven" alliance="32" />
+	<player id="100196" name="houba" alliance="27" />
+	<player id="100198" name="WallStreet" status="i" />
+	<player id="100199" name="DrZomBuzz" alliance="37" />
+	<player id="100200" name="Czar Wasat" status="I" alliance="25" />
+	<player id="100201" name="mattski" alliance="82" />
+	<player id="100203" name="Bouyaca" status="vi" />
+	<player id="100204" name="Senator Appo" status="v" alliance="39" />
+	<player id="100205" name="Agna" alliance="78" />
+	<player id="100206" name="missile" />
+	<player id="100207" name="Locutus" status="v" />
+	<player id="100208" name="Dark Sphenix" alliance="21" />
+	<player id="100209" name="STRONG" status="vi" alliance="21" />
+	<player id="100210" name="Winter" status="i" />
+	<player id="100211" name="Ashbrooke" status="vi" alliance="21" />
+	<player id="100212" name="Whixey" status="v" />
+	<player id="100213" name="Roboon" status="v" />
+	<player id="100214" name="Matteo" status="I" />
+	<player id="100215" name="SYSTEM" status="I" alliance="17" />
+	<player id="100216" name="Nemo" status="I" />
+	<player id="100217" name="Hades" status="I" />
+	<player id="100224" name="dstn" status="i" />
+	<player id="100226" name="jjj" status="I" />
+	<player id="100227" name="valtor" />
+	<player id="100228" name="GbManske" status="i" alliance="52" />
+	<player id="100229" name="sharkon" status="vi" alliance="52" />
+	<player id="100230" name="Vicegerent Tycho" status="I" />
+	<player id="100231" name="Zardoz" status="i" />
+	<player id="100233" name="Stadtholder Helix" status="I" />
+	<player id="100234" name="Natasha" alliance="6" />
+	<player id="100235" name="EFELER" alliance="95" />
+	<player id="100237" name="Gucci" status="i" />
+	<player id="100238" name="Marine66" status="I" />
+	<player id="100239" name="KARADAYI" alliance="95" />
+	<player id="100243" name="Destruction" alliance="6" />
+	<player id="100244" name="Lieutenant Hyperion" status="I" />
+	<player id="100245" name="Jonathan" alliance="8" />
+	<player id="100246" name="actarus" alliance="5" />
+	<player id="100247" name="tio-darth" alliance="39" />
+	<player id="100248" name="DRighteous" alliance="36" />
+	<player id="100249" name="maxis" status="i" />
+	<player id="100250" name="Michael Savage" alliance="39" />
+	<player id="100251" name="Lieutenant Neptune" status="I" />
+	<player id="100252" name="Mogul Cosmo" status="I" />
+	<player id="100254" name="Tio-Bola" alliance="38" />
+	<player id="100257" name="lepaez" status="I" />
+	<player id="100258" name="thatariesguy" />
+	<player id="100259" name="Rigel" status="vI" />
+	<player id="100260" name="Newblood" status="I" />
+	<player id="100261" name="Darken Rahl" alliance="67" />
+	<player id="100262" name="Nixx" alliance="27" />
+	<player id="100263" name="doomnuke" status="I" />
+	<player id="100264" name="gjq" />
+	<player id="100265" name="MoonRabbit" alliance="36" />
+	<player id="100266" name="domenchek" status="v" />
+	<player id="100267" name="Sun Tzu" status="vi" />
+	<player id="100268" name="Rebelle" status="vi" alliance="21" />
+	<player id="100269" name="Tartar" />
+	<player id="100270" name="Jigsaw" status="v" />
+	<player id="100271" name="fleetcrasher" status="vi" />
+	<player id="100272" name="Naw" alliance="8" />
+	<player id="100273" name="Hoagie" />
+	<player id="100274" name="morningstar" status="I" />
+	<player id="100277" name="ADMIRAL HELIOS" status="I" />
+	<player id="100278" name="Vibezz" status="I" />
+	<player id="100279" name="ajtex99" />
+	<player id="100281" name="Rick Sanchez" alliance="33" />
+	<player id="100282" name="M e d o" alliance="27" />
+	<player id="100284" name="Changa" alliance="27" />
+	<player id="100285" name="Zagorac" status="vi" alliance="52" />
+	<player id="100286" name="Consul Fidis" status="I" />
+	<player id="100288" name="Commander Antimatter" status="I" />
+	<player id="100289" name="Munkiman03" alliance="8" />
+	<player id="100290" name="Killean" status="i" alliance="52" />
+	<player id="100291" name="Cabats" alliance="8" />
+	<player id="100292" name="Swiss Miss" status="I" />
+	<player id="100295" name="aroval" status="I" />
+	<player id="100297" name="Jackness" status="i" />
+	<player id="100298" name="GeForce" status="I" />
+	<player id="100299" name="Return" status="I" alliance="28" />
+	<player id="100301" name="Baree" />
+	<player id="100303" name="lemartes" status="I" />
+	<player id="100305" name="Captain Callisto" status="i" />
+	<player id="100306" name="Yondu" alliance="8" />
+	<player id="100308" name="verza" status="I" />
+	<player id="100309" name="WilliamBob" status="v" alliance="52" />
+	<player id="100310" name="Mazjuro" status="I" />
+	<player id="100311" name="smiti" status="vi" />
+	<player id="100312" name="Rambo" alliance="5" />
+	<player id="100313" name="Nexeus" alliance="32" />
+	<player id="100317" name="Lieutenant Fireball" alliance="29" />
+	<player id="100318" name="Grave" alliance="44" />
+	<player id="100319" name="Goorkz" alliance="8" />
+	<player id="100320" name="Somerandomidiot" status="vi" />
+	<player id="100321" name="imwaket23" status="vi" alliance="52" />
+	<player id="100322" name="Stadtholder Sigma" status="I" />
+	<player id="100325" name="Daksha" alliance="32" />
+	<player id="100326" name="OmegaMan" />
+	<player id="100328" name="Chaosdan" alliance="73" />
+	<player id="100330" name="pajak" status="vI" />
+	<player id="100331" name="Redhood" status="i" />
+	<player id="100332" name="BioDestruction" alliance="8" />
+	<player id="100333" name="Payaso" alliance="36" />
+	<player id="100334" name="Adand" status="I" />
+	<player id="100336" name="Nosey Piglet" alliance="33" />
+	<player id="100338" name="Emperor Scorpius" alliance="73" />
+	<player id="100340" name="Zeus2001" status="i" />
+	<player id="100341" name="odbyt" alliance="67" />
+	<player id="100343" name="BFischer" />
+	<player id="100344" name="Proconsul Magellan" status="vi" />
+	<player id="100345" name="Khymera" status="I" />
+	<player id="100349" name="Hi Im Karl" status="v" />
+	<player id="100350" name="Bolo34" status="vi" />
+	<player id="100352" name="Bladerunner" status="v" alliance="52" />
+	<player id="100354" name="EPICxAWEZOME" status="I" />
+	<player id="100356" name="CrepticKiller" alliance="8" />
+	<player id="100359" name="Renegade Sigma" status="I" />
+	<player id="100362" name="Summer Sanchez" alliance="33" />
+	<player id="100367" name="tan000" status="i" alliance="52" />
+	<player id="100370" name="Selectah" status="vib" />
+	<player id="100371" name="Tylerun" status="i" alliance="52" />
+	<player id="100373" name="joker" status="i" />
+	<player id="100376" name="OMEGABLACK" status="v" />
+	<player id="100377" name="Forrest Gump" alliance="39" />
+	<player id="100378" name="The Hermit" />
+	<player id="100379" name="SlatQc" />
+	<player id="100381" name="Erik Cheshire" status="i" />
+	<player id="100383" name="Nos" alliance="95" />
+	<player id="100385" name="Rancor" alliance="8" />
+	<player id="100387" name="Pwnzorder" status="i" />
+	<player id="100388" name="Lieutenant Flyby" status="I" />
+	<player id="100390" name="Czar Malin" status="I" />
+	<player id="100392" name="pepos" status="i" />
+	<player id="100395" name="Procurator Leda" status="I" />
+	<player id="100396" name="Morty Sanchez" status="v" alliance="33" />
+	<player id="100397" name="Governor Meteor" status="i" />
+	<player id="100398" name="fire" status="I" />
+	<player id="100399" name="Emperor Space" status="i" alliance="39" />
+	<player id="100402" name="f0lkronki" status="I" />
+	<player id="100404" name="The Legend 27" status="I" />
+	<player id="100406" name="Emperor Dorado" />
+	<player id="100408" name="Le Parasite" alliance="8" />
+	<player id="100409" name="KaZe" status="vI" />
+	<player id="100412" name="Krytical" status="I" />
+	<player id="100413" name="XFIN" status="i" alliance="35" />
+	<player id="100416" name="Shalimar" status="I" />
+	<player id="100417" name="Chancellor Draco" status="vI" />
+	<player id="100421" name="Vincent" alliance="8" />
+	<player id="100422" name="Lieutenant Sagan" status="I" />
+	<player id="100423" name="Chief Nash" status="I" />
+	<player id="100424" name="TFunart" status="I" />
+	<player id="100426" name="drag" status="vi" />
+	<player id="100429" name="fernaras" status="i" />
+	<player id="100430" name="MrBandi" />
+	<player id="100431" name="zedobode" status="i" />
+	<player id="100434" name="Commander Saturn" status="I" />
+	<player id="100439" name="LordMajorGoon" status="vi" alliance="44" />
+	<player id="100440" name="Driftwood" alliance="8" />
+	<player id="100443" name="Engineer Indus" status="I" />
+	<player id="100444" name="Sikorsky" alliance="52" />
+	<player id="100446" name="xSaphy" status="I" />
+	<player id="100447" name="MooCowBeer" status="I" />
+	<player id="100450" name="ForgottenSun" status="i" />
+	<player id="100451" name="Chancellor Navi" status="I" />
+	<player id="100453" name="Director Gliese" status="i" />
+	<player id="100456" name="Emperor Europa" status="I" />
+	<player id="100459" name="Spock13" alliance="8" />
+	<player id="100460" name="Turadel" status="i" />
+	<player id="100461" name="Pogba" status="vi" alliance="52" />
+	<player id="100462" name="Marcius Nhasty" status="i" />
+	<player id="100465" name="FlaxenHair" status="I" />
+	<player id="100471" name="Greedy" status="i" />
+	<player id="100472" name="Maximilian" status="vI" />
+	<player id="100473" name="Mon" status="I" />
+	<player id="100475" name="bassie" status="vi" />
+	<player id="100476" name="Stadtholder Corvus" status="I" />
+	<player id="100477" name="Chancellor Explorer" />
+	<player id="100479" name="DeusMemus" alliance="39" />
+	<player id="100482" name="Czar Grus" status="I" />
+	<player id="100483" name="Commander Polaris" status="I" />
+	<player id="100485" name="Wafl3" alliance="8" />
+	<player id="100486" name="Mistress" alliance="39" />
+	<player id="100488" name="n-n" status="I" />
+	<player id="100489" name="Lord Vader" alliance="39" />
+	<player id="100490" name="Geologist Columbo" status="I" />
+	<player id="100493" name="Chief Remus" status="I" />
+	<player id="100495" name="MajorGeneralGoon" status="vi"
+		alliance="44" />
+	<player id="100499" name="Lead2yourhead" alliance="39" />
+	<player id="100500" name="Snicket" alliance="79" />
+	<player id="100503" name="CatEmpire" status="vi" alliance="8" />
+	<player id="100504" name="Ender" alliance="8" />
+	<player id="100505" name="MEGA_ALIADO" status="I" />
+	<player id="100506" name="Dragons Bane" alliance="68" />
+	<player id="100511" name="maldito" status="i" />
+	<player id="100513" name="PharmGuy" />
+	<player id="100514" name="marszal" status="I" />
+	<player id="100519" name="Captain Oberon" status="I" />
+	<player id="100520" name="President Espi" alliance="52" />
+	<player id="100523" name="Czar Jericho" status="I" />
+	<player id="100524" name="Proconsul Thrym" status="I" />
+	<player id="100525" name="Elmosabe" />
+	<player id="100527" name="Admiral Hale" status="I" alliance="40" />
+	<player id="100528" name="Captain Veil" status="I" />
+	<player id="100529" name="Sovereign Seren" status="I" />
+	<player id="100532" name="Chains99" status="I" />
+	<player id="100536" name="TwoPlace" alliance="8" />
+	<player id="100537" name="Tomelirolla" alliance="6" />
+	<player id="100538" name="Tin-tin" status="I" />
+	<player id="100539" name="721F02C3" />
+	<player id="100540" name="sozokaelo" status="vi" />
+	<player id="100542" name="Procurator Kraz" status="vI" />
+	<player id="100543" name="HellClown" status="I" />
+	<player id="100546" name="Mudpuppy" status="I" />
+	<player id="100548" name="Paladin" status="v" />
+	<player id="100552" name="BLACK DRAGON" status="I" />
+	<player id="100556" name="Grimgrash" status="I" />
+	<player id="100557" name="FREAK" status="vi" />
+	<player id="100560" name="Chief Rhea" alliance="87" />
+	<player id="100562" name="Toxido" alliance="8" />
+	<player id="100567" name="gileskd" alliance="8" />
+	<player id="100569" name="Czar Sun" status="I" />
+	<player id="100572" name="cia0" status="I" />
+	<player id="100575" name="Consul Osiris" status="I" />
+	<player id="100578" name="GingerHeadMan" status="I" />
+	<player id="100583" name="Diocletianus" status="i" />
+	<player id="100584" name="Lord Kastra" status="I" />
+	<player id="100585" name="Emperor Poff" alliance="47" />
+	<player id="100586" name="Vorex" alliance="47" />
+	<player id="100587" name="Iron Shoulders" alliance="47" />
+	<player id="100589" name="Luna" status="v" alliance="52" />
+	<player id="100591" name="Snuffles" alliance="33" />
+	<player id="100592" name="Just a flesh wound" />
+	<player id="100593" name="Eeyore" alliance="33" />
+	<player id="100594" name="RusVaj" status="I" />
+	<player id="100595" name="MoonMaker" />
+	<player id="100596" name="KH_MOT" alliance="8" />
+	<player id="100597" name="ryko" status="i" />
+	<player id="100599" name="kl3v4" alliance="8" />
+	<player id="100601" name="ladins" />
+	<player id="100604" name="KianKyo" status="i" />
+	<player id="100609" name="edge" alliance="8" />
+	<player id="100612" name="Bats" status="i" />
+	<player id="100613" name="CedricSuyama" status="i" />
+	<player id="100617" name="Engineer Helio" status="vi" />
+	<player id="100619" name="DeathLands" alliance="52" />
+	<player id="100622" name="Haruka" status="I" />
+	<player id="100623" name="Replearv" status="I" />
+	<player id="100624" name="Czar Lepus" status="I" />
+	<player id="100626" name="Constable Ara" status="I" />
+	<player id="100627" name="cbrcowboy" alliance="8" />
+	<player id="100629" name="Nero77611" status="v" alliance="34" />
+	<player id="100633" name="werla" alliance="50" />
+	<player id="100634" name="Vicegerent Nova" status="I" />
+	<player id="100640" name="Commodore Deimos" alliance="47" />
+	<player id="100643" name="Marks211" />
+	<player id="100646" name="Churchill" />
+	<player id="100648" name="Pogousa" alliance="34" />
+	<player id="100649" name="Light Flux" status="vi" />
+	<player id="100651" name="Czar Alpha" status="I" />
+	<player id="100652" name="Hardscope" status="I" />
+	<player id="100653" name="Mysticstar" status="I" />
+	<player id="100654" name="Darth Maul" alliance="39" />
+	<player id="100657" name="DeeJay" status="v" alliance="67" />
+	<player id="100660" name="tomes" />
+	<player id="100661" name="falso" />
+	<player id="100662" name="Commander Navi" status="I" />
+	<player id="100665" name="Kikin" status="I" />
+	<player id="100666" name="Mazz" alliance="73" />
+	<player id="100674" name="Marethyu" alliance="52" />
+	<player id="100675" name="ZokyCro" status="I" />
+	<player id="100679" name="Elarin" status="i" />
+	<player id="100680" name="salto" status="i" />
+	<player id="100681" name="MEGOTH" alliance="8" />
+	<player id="100682" name="Blixed" alliance="95" />
+	<player id="100687" name="Marshal Mizar" status="i" />
+	<player id="100692" name="Lord Davida" status="vi" alliance="52" />
+	<player id="100695" name="Pedrotv" status="i" />
+	<player id="100696" name="Engineer Retina" />
+	<player id="100697" name="coolman" status="i" alliance="66" />
+	<player id="100700" name="Senator Omega" status="I" />
+	<player id="100701" name="Bandit Tycho" status="I" />
+	<player id="100703" name="Spyrox" />
+	<player id="100704" name="Frenchguy" status="I" />
+	<player id="100706" name="Renegade Voids" status="I" />
+	<player id="100709" name="ModernJekins" status="i" alliance="79" />
+	<player id="100713" name="Citizen Kane" status="vi" />
+	<player id="100714" name="SaintPeter" status="v" alliance="39" />
+	<player id="100719" name="Lieutenant Kraz" status="I" />
+	<player id="100721" name="Killerloop" status="I" />
+	<player id="100722" name="Lord Thrust" status="I" />
+	<player id="100723" name="csvath" alliance="52" />
+	<player id="100729" name="meadster" alliance="73" />
+	<player id="100735" name="llmErtll" status="I" />
+	<player id="100737" name="Rulan Hark" status="i" />
+	<player id="100738" name="NoChaser L7" status="i" />
+	<player id="100740" name="fart" alliance="33" />
+	<player id="100741" name="Procurator Infrared" status="I" />
+	<player id="100742" name="LaunchMAO" status="v" alliance="36" />
+	<player id="100747" name="lll" status="I" />
+	<player id="100748" name="TrapTech938" status="i" alliance="52" />
+	<player id="100750" name="icecream" status="I" />
+	<player id="100751" name="Chancellor Crux" />
+	<player id="100752" name="mastervalor123" status="I" />
+	<player id="100756" name="youjh" alliance="73" />
+	<player id="100758" name="Ruse" status="i" />
+	<player id="100760" name="Commodore Thrust" status="I" />
+	<player id="100762" name="Chancellor Holmes" status="i" />
+	<player id="100763" name="Engineer Veil" status="I" />
+	<player id="100765" name="Lord Dolon" status="i" />
+	<player id="100773" name="Proconsul Kore" status="I" />
+	<player id="100774" name="Vicegerent Kaarlee" alliance="69" />
+	<player id="100776" name="Proconsul Europa" status="I" />
+	<player id="100778" name="Renegade Comet" status="I" />
+	<player id="100779" name="AnimatedGeko" />
+	<player id="100781" name="at40493" status="o" alliance="8" />
+	<player id="100782" name="Senator Eos" status="I" />
+	<player id="100783" name="Assualt" alliance="73" />
+	<player id="100788" name="Sovereign Ara" status="I" />
+	<player id="100791" name="KH_MAT" status="i" />
+	<player id="100793" name="Procurator Scorpius" status="I" />
+	<player id="100794" name="snajpi" alliance="34" />
+	<player id="100798" name="Constable Atlas" status="I" />
+	<player id="100799" name="Sal Paradiso" status="i" />
+	<player id="100801" name="JohnDeere" />
+	<player id="100802" name="Mogul Skat" status="I" />
+	<player id="100805" name="Procurator Parsec" status="I" />
+	<player id="100806" name="Geologist Antares" status="I" />
+	<player id="100807" name="Void" status="I" />
+	<player id="100809" name="Lolita" alliance="95" />
+	<player id="100813" name="T A B A" status="vi" />
+	<player id="100814" name="RenoWar" status="vi" />
+	<player id="100815" name="Swatter" alliance="73" />
+	<player id="100817" name="Tommy" status="I" />
+	<player id="100818" name="Lieutenant Klio" status="I" />
+	<player id="100821" name="Constable Fenrir" status="I" />
+	<player id="100822" name="Captain Hyperion" status="i" />
+	<player id="100823" name="Rosco0310" alliance="39" />
+	<player id="100824" name="Consul Palma" status="i" />
+	<player id="100825" name="Zenothist" status="vi" />
+	<player id="100828" name="Andaer" alliance="47" />
+	<player id="100830" name="cyco8943l" status="i" />
+	<player id="100831" name="Director Seren" status="I" />
+	<player id="100833" name="Up the Irons" alliance="52" />
+	<player id="100837" name="President Sao" status="I" />
+	<player id="100839" name="Vicegerent Pluto" status="I" alliance="49" />
+	<player id="100845" name="Chief Oberon" status="I" />
+	<player id="100847" name="ninja" status="o" />
+	<player id="100848" name="regent5" status="i" alliance="52" />
+	<player id="100850" name="Governor Alpha" status="I" />
+	<player id="100851" name="Proconsul Orb" status="I" />
+	<player id="100854" name="Mogul Spica" status="i" alliance="70" />
+	<player id="100857" name="Letike" alliance="50" />
+	<player id="100859" name="Renegade Oort" status="i" />
+	<player id="100862" name="Stadtholder Deneb" status="I" />
+	<player id="100865" name="The Forgotten" status="i" alliance="21" />
+	<player id="100871" name="President Deimos" status="I" />
+	<player id="100874" name="kealhash" status="i" />
+	<player id="100876" name="rom" status="I" />
+	<player id="100877" name="Fiat500X" status="vi" />
+	<player id="100879" name="Lieutenant Cassini" status="I" />
+	<player id="100882" name="wdgaster" status="I" />
+	<player id="100884" name="Governor Sunspot" status="I" />
+	<player id="100887" name="Thugnificent" />
+	<player id="100889" name="Cat" />
+	<player id="100890" name="Renegade Galaxy" status="I" />
+	<player id="100893" name="Yoda" alliance="8" />
+	<player id="100894" name="Gumiho" status="vi" />
+	<player id="100897" name="General321" status="i" />
+	<player id="100899" name="Geologist Neutrino" status="I" />
+	<player id="100900" name="Senator Asteroid" status="I" />
+	<player id="100905" name="Mogul Corona" status="I" />
+	<player id="100906" name="JPNakajima" />
+	<player id="100907" name="Lord Pathfinder" status="I" />
+	<player id="100909" name="Fear" status="I" />
+	<player id="100910" name="Bandit Moon" alliance="39" />
+	<player id="100911" name="Lord Grus" status="I" />
+	<player id="100912" name="WulfyIronHide" status="i" />
+	<player id="100913" name="Cogonzo" />
+	<player id="100914" name="SightDeceit" status="I" />
+	<player id="100915" name="Chancellor Mimas" status="I" />
+	<player id="100917" name="Tobby" status="I" />
+	<player id="100919" name="oceansapphire" status="vib" alliance="63" />
+	<player id="100924" name="Director Corvus" alliance="77" />
+	<player id="100929" name="Shady" status="i" />
+	<player id="100931" name="Capt Duncan" />
+	<player id="100934" name="falon" status="vib" alliance="63" />
+	<player id="100935" name="firefoxxxy" status="vib" alliance="63" />
+	<player id="100936" name="Talbon Banthu" alliance="91" />
+	<player id="100938" name="Harddriver" status="vi" />
+	<player id="100939" name="syly" />
+	<player id="100942" name="eternity" status="vib" alliance="63" />
+	<player id="100943" name="Marshal Buzz" status="i" />
+	<player id="100944" name="Chancellor Ares" status="i" />
+	<player id="100947" name="anastasia" status="vib" alliance="63" />
+	<player id="100950" name="allurea" status="vib" alliance="63" />
+	<player id="100951" name="bluebird" status="vib" alliance="63" />
+	<player id="100953" name="monalisa" status="vib" alliance="63" />
+	<player id="100955" name="angelicka" status="vib" alliance="63" />
+	<player id="100956" name="Vice Zuben" status="I" />
+	<player id="100958" name="aurora" status="vib" alliance="63" />
+	<player id="100959" name="prizym" status="vib" alliance="63" />
+	<player id="100960" name="Expantalonis" status="vI" />
+	<player id="100962" name="gea" status="v" />
+	<player id="100963" name="hulk" alliance="73" />
+	<player id="100965" name="Valentine" alliance="77" />
+	<player id="100966" name="kreat0r" status="i" />
+	<player id="100970" name="Rayesto" status="i" />
+	<player id="100972" name="Geologist Holmes" status="i" />
+	<player id="100973" name="Kadin" alliance="77" />
+	<player id="100978" name="lipa" status="i" />
+	<player id="100979" name="killernight1948" alliance="39" />
+	<player id="100981" name="Renegade Columbo" status="I" />
+	<player id="100984" name="GodMode" alliance="8" />
+	<player id="100985" name="Lord Seti" status="vi" />
+	<player id="100986" name="VasilyaJR" status="I" />
+	<player id="100992" name="Commander Parsec" status="I" />
+	<player id="100994" name="Gaius Romanus Kaldor" />
+	<player id="100996" name="JaglerSirin" status="v" />
+	<player id="100998" name="Vicegerent Cupid" status="i" />
+	<player id="101004" name="Bandit Independence" />
+	<player id="101009" name="Constable Amos" status="i" />
+	<player id="101012" name="Engineer Hunter" status="i" />
+	<player id="101015" name="tarnada" alliance="141" />
+	<player id="101016" name="capt flint" status="i" />
+	<player id="101017" name="krystlyn" status="vib" alliance="63" />
+	<player id="101018" name="jadehelm" status="vib" alliance="63" />
+	<player id="101019" name="omegared" status="vib" alliance="63" />
+	<player id="101021" name="guardians" status="vib" alliance="63" />
+	<player id="101023" name="starlord" status="vib" alliance="63" />
+	<player id="101024" name="nebula" status="vi" alliance="63" />
+	<player id="101027" name="Captain Rover" status="i" />
+	<player id="101029" name="Turtle Steve" />
+	<player id="101032" name="Proconsul Leo" status="i" />
+	<player id="101033" name="Consul Space" status="i" />
+	<player id="101034" name="Lord of the DRWS" alliance="71" />
+	<player id="101050" name="Slartibartfast" />
+	<player id="101051" name="Proconsul Keid" status="i" />
+	<player id="101053" name="W4RM4CHINE" status="o" alliance="82" />
+	<player id="101059" name="Edge Maverick" alliance="77" />
+	<player id="101060" name="President Mimas" status="i" />
+	<player id="101061" name="Mutropolis" status="i" />
+	<player id="101065" name="Rico Tungsten" status="i" />
+	<player id="101066" name="Emperor Skinner" alliance="52" />
+	<player id="101068" name="Proconsul Discory" status="i" />
+	<player id="101069" name="Director Uriel" status="i" alliance="52" />
+	<player id="101077" name="Arlynm25" status="i" />
+	<player id="101078" name="Governor Virgo" />
+	<player id="101079" name="Sovereign Pulsar" alliance="73" />
+	<player id="101085" name="Hyperius" status="a" />
+	<player id="101086" name="Renegade Echo" status="i" />
+	<player id="101087" name="Surtr" status="vi" alliance="62" />
+	<player id="101088" name="King McHenry I" alliance="62" />
+	<player id="101092" name="Juansiopi" alliance="77" />
+	<player id="101093" name="Vicegerent Eagle" status="i" alliance="59" />
+	<player id="101094" name="Hornet" />
+	<player id="101095" name="Xezian Noskc" status="i" />
+	<player id="101096" name="Renegade Hyperion" status="i" />
+	<player id="101099" name="Vunderlak" status="i" />
+	<player id="101103" name="WhiffyDeamonX" alliance="77" />
+	<player id="101104" name="dannymmc" status="i" />
+	<player id="101106" name="CMDR Nerys McHenry" alliance="62" />
+	<player id="101107" name="Laptik" alliance="73" />
+	<player id="101108" name="Chancellor Helios" status="i" />
+	<player id="101111" name="psychoticunicorn" alliance="52" />
+	<player id="101112" name="Salzar" status="v" />
+	<player id="101115" name="bordo bereli" alliance="95" />
+	<player id="101116" name="RoadMarket" alliance="67" />
+	<player id="101120" name="cttrondonia" status="vi" />
+	<player id="101122" name="raadicus" status="i" />
+	<player id="101129" name="Evasiveltk" status="i" />
+	<player id="101132" name="Lord KLA" alliance="69" />
+	<player id="101133" name="Bopped" status="i" />
+	<player id="101137" name="Chancellor Alpha" status="i" />
+	<player id="101140" name="Emperor Bane" status="i" />
+	<player id="101143" name="over" status="i" />
+	<player id="101145" name="Kalli" status="i" />
+	<player id="101147" name="Captain Pollux" status="i" />
+	<player id="101150" name="Constable Artemis" status="i" />
+	<player id="101155" name="Amulius" status="i" />
+	<player id="101156" name="Lieutenant Neso" status="i" />
+	<player id="101158" name="Chancellor Io" status="i" />
+	<player id="101166" name="Lord Flame" status="i" />
+	<player id="101167" name="Director Dorado" status="i" />
+	<player id="101170" name="KingLucan" status="i" />
+	<player id="101172" name="Seeker Kyle" status="i" />
+	<player id="101174" name="Rochn" status="i" />
+	<player id="101175" name="dragonreaper" status="vi" />
+	<player id="101178" name="Consul Horizon" status="i" />
+	<player id="101179" name="Marshal Castor" status="i" />
+	<player id="101182" name="robin hood" status="o" alliance="91" />
+	<player id="101183" name="Universal" status="i" />
+	<player id="101184" name="Drukhau" status="i" alliance="64" />
+	<player id="101190" name="Stadtholder Quantum" status="i" />
+	<player id="101191" name="GotyaBeach" status="i" />
+	<player id="101192" name="Admiral Spica" status="i" />
+	<player id="101193" name="rbibee" alliance="69" />
+	<player id="101194" name="RayGunME" status="i" />
+	<player id="101199" name="Governor Spacewalk" status="i" />
+	<player id="101201" name="Sovereign Magnetar" />
+	<player id="101202" name="Drake Renar" />
+	<player id="101203" name="Sovereign Jinto" alliance="69" />
+	<player id="101205" name="SgtBitchslap" alliance="69" />
+	<player id="101209" name="Emperor Dawn" status="i" />
+	<player id="101212" name="Commodore Puck" status="i" />
+	<player id="101216" name="Rojchart" alliance="69" />
+	<player id="101219" name="Proconsul Rigel" status="i" />
+	<player id="101220" name="dred" status="i" />
+	<player id="101223" name="Vice Midas" status="i" />
+	<player id="101225" name="Mogul Helios" status="i" />
+	<player id="101226" name="Chief Magnetar" status="i" />
+	<player id="101236" name="Saimanch" status="i" />
+	<player id="101237" name="Governor Galileo" status="i" />
+	<player id="101238" name="Vicegerent Hale" status="i" />
+	<player id="101239" name="Constable Sao" status="i" />
+	<player id="101240" name="crank" status="i" />
+	<player id="101245" name="Hells Sea" status="v" alliance="73" />
+	<player id="101248" name="UnstoppableDJ" status="i" alliance="52" />
+	<player id="101249" name="Kaiser" status="vi" />
+	<player id="101253" name="Wertura" status="i" />
+	<player id="101254" name="Voided" />
+	<player id="101256" name="Consul Indus" status="i" />
+	<player id="101257" name="Kalishir" status="i" />
+	<player id="101258" name="Mogul Neutrino" status="i" />
+	<player id="101259" name="Lieutenant Lambda" status="i" />
+	<player id="101261" name="Director Kuma" status="i" />
+	<player id="101266" name="RedRamos" />
+	<player id="101268" name="Razor" status="v" />
+	<player id="101269" name="Sovereign Navi" status="i" />
+	<player id="101274" name="Governor Nova" status="i" />
+	<player id="101275" name="Senator Polaris" status="i" />
+	<player id="101276" name="Vice Lagoon" status="i" />
+	<player id="101279" name="Commodore Omicron" status="i" />
+	<player id="101282" name="hartiger" />
+	<player id="101290" name="Engineer Oort" status="i" />
+	<player id="101294" name="Yeneer" />
+	<player id="101297" name="Captain Leonis" alliance="97" />
+	<player id="101298" name="Admiral Fenrir" status="i" />
+	<player id="101304" name="Lord Flyby" status="i" />
+	<player id="101309" name="Geologist Oort" status="i" />
+	<player id="101311" name="Emperor Spirit" status="i" />
+	<player id="101312" name="Dylmos" alliance="77" />
+	<player id="101315" name="Cobbs84" alliance="8" />
+	<player id="101316" name="Task Force Bruiser" status="i" />
+	<player id="101317" name="Constable Jupiter" status="i" />
+	<player id="101322" name="Ensign Ravisher" alliance="36" />
+	<player id="101324" name="governor destruction" status="i" />
+	<player id="101332" name="Admiral Brutus" />
+	<player id="101346" name="Mayhem" status="i" />
+	<player id="101347" name="Chancellor Octans" status="i" />
+	<player id="101349" name="Commodore Comet" status="i" />
+	<player id="101350" name="Dinsed78" status="i" />
+	<player id="101351" name="GunnyGuns" />
+	<player id="101352" name="Geologist Cetus" status="i" />
+	<player id="101356" name="Emperor Osiris" status="i" />
+	<player id="101357" name="Procurator Telesto" status="i" />
+	<player id="101361" name="QBcrusher" alliance="73" />
+	<player id="101366" name="Director Quasar" status="i" />
+	<player id="101368" name="Emperor Columbo" status="i" />
+	<player id="101369" name="Procurator Pandora" status="i" />
+	<player id="101370" name="Geologist Skat" status="i" />
+	<player id="101371" name="Maglor" alliance="95" />
+	<player id="101373" name="PhelipenZ" />
+	<player id="101374" name="Mojo" alliance="140" />
+	<player id="101375" name="hevx" />
+	<player id="101376" name="percevalon" alliance="77" />
+	<player id="101379" name="God King Poff" status="i" />
+	<player id="101382" name="Geologist Flare" status="i" />
+	<player id="101385" name="Constable Jericho" status="i" />
+	<player id="101386" name="Chris br 549" status="i" />
+	<player id="101392" name="Jullebobber" />
+	<player id="101396" name="Governor Deimos" status="i" />
+	<player id="101399" name="Consul Parsec" status="i" />
+	<player id="101402" name="Engineer Apollo" status="i" />
+	<player id="101408" name="Bandit Aero" status="i" />
+	<player id="101409" name="Lord Transit" status="i" />
+	<player id="101416" name="Filthy Beast" status="o" alliance="77" />
+	<player id="101418" name="Rick Ricker" />
+	<player id="101420" name="Lieutenant Jupiter" status="i" />
+	<player id="101424" name="Director Magellan" alliance="77" />
+	<player id="101426" name="Geologist Mariner" status="i" />
+	<player id="101427" name="Madara" status="i" />
+	<player id="101437" name="Proconsul Nemesis" status="i" />
+	<player id="101438" name="Bandit Probe" status="i" />
+	<player id="101439" name="richhomiequan" status="i" />
+	<player id="101442" name="President Vesta" status="i" />
+	<player id="101447" name="Marshal Fireball" status="i" />
+	<player id="101448" name="Ghost Slayer" status="i" />
+	<player id="101452" name="Consul Japetus" status="i" />
+	<player id="101458" name="Darkcrii" />
+	<player id="101459" name="Marshal Kale" status="i" />
+	<player id="101460" name="Captain Galaxy" status="i" />
+	<player id="101466" name="Midnight Stryder" alliance="77" />
+	<player id="101469" name="Pegai" status="i" />
+	<player id="101470" name="Consul Pioneer" status="i" />
+	<player id="101471" name="Marshal Hunter" status="i" />
+	<player id="101475" name="Hawkbower" />
+	<player id="101485" name="Governor Ara" status="i" />
+	<player id="101491" name="The damn" status="i" />
+	<player id="101492" name="Hortun" />
+	<player id="101496" name="Emperor Midas" status="i" />
+	<player id="101497" name="Geologist Ceti" status="i" />
+	<player id="101499" name="Technocrat Portia" status="i" />
+	<player id="101505" name="Stadtholder Klio" status="i" />
+	<player id="101506" name="Vice Pavo" status="i" />
+	<player id="101507" name="Sovereign Viking" status="v" alliance="47" />
+	<player id="101510" name="Renegade Redshift" status="i" />
+	<player id="101512" name="President Kore" status="i" />
+	<player id="101516" name="Bishop" status="i" />
+	<player id="101518" name="Marshal Amos" status="i" />
+	<player id="101520" name="Dranyelsan" alliance="95" />
+	<player id="101521" name="Corza" alliance="77" />
+	<player id="101524" name="SinisterPrime" status="i" />
+	<player id="101526" name="Stadtholder Proton" status="i" />
+	<player id="101528" name="Geologist Voyager" status="i" />
+	<player id="101529" name="Sublimezero" alliance="77" />
+	<player id="101530" name="Cyrus Tivianne" status="i" />
+	<player id="101531" name="ecclesia" status="vib" />
+	<player id="101538" name="Renegade Tauri" status="i" />
+	<player id="101539" name="Stadtholder Perseus" status="i" />
+	<player id="101549" name="Bandit Artemis" status="i" />
+	<player id="101550" name="Hevar Trex Not" status="i" />
+	<player id="101551" name="Vicegerent Vela" status="i" />
+	<player id="101555" name="DaChronic" alliance="77" />
+	<player id="101556" name="Engineer Neutron" status="i" />
+	<player id="101562" name="ElWiiro" alliance="52" />
+	<player id="101563" name="Senator Meridian" status="i" />
+	<player id="101568" name="Captain Kastra" status="i" />
+	<player id="101571" name="Stadtholder Buzz" status="i" />
+	<player id="101572" name="Draconian73" alliance="104" />
+	<player id="101574" name="openwar" status="i" />
+	<player id="101581" name="infinity" alliance="114" />
+	<player id="101584" name="derpy" />
+	<player id="101588" name="PyralisN7" alliance="79" />
+	<player id="101589" name="Admiral Noceth" alliance="133" />
+	<player id="101591" name="Snergels the Ruiner" status="i"
+		alliance="79" />
+	<player id="101593" name="Mogul Titan" status="i" />
+	<player id="101594" name="SRH001" alliance="79" />
+	<player id="101595" name="Senator Pavo" status="i" />
+	<player id="101597" name="adeadlyninja99" alliance="52" />
+	<player id="101600" name="Easyminer" alliance="33" />
+	<player id="101604" name="kaoz" alliance="73" />
+	<player id="101606" name="Stadtholder Sol" status="i" />
+	<player id="101607" name="Forlan" alliance="8" />
+	<player id="101608" name="Geologist Nebula" />
+	<player id="101615" name="ea10ceo" />
+	<player id="101618" name="Mrhodo" status="i" />
+	<player id="101619" name="DeathCookie" alliance="39" />
+	<player id="101623" name="Kuduff" status="i" />
+	<player id="101626" name="Dr Luis Fer" />
+	<player id="101628" name="Vice" status="i" />
+	<player id="101629" name="Vicegerent Voids" status="i" />
+	<player id="101630" name="Starkiller" status="i" />
+	<player id="101633" name="Governor Pegasus" status="i" />
+	<player id="101637" name="Technocrat Holmes" status="i" />
+	<player id="101638" name="Commodore Keid" status="i" />
+	<player id="101640" name="Senator Serpentis" status="i" />
+	<player id="101649" name="Captain Fay" status="i" />
+	<player id="101651" name="Consul Sattelite" status="i" />
+	<player id="101658" name="Lieutenant Hubble" status="i" />
+	<player id="101660" name="Procurator Leo" status="i" />
+	<player id="101661" name="Czar Nemesis" status="i" />
+	<player id="101662" name="Commander Jericho" status="i" />
+	<player id="101665" name="Procurator Tycho" status="i" />
+	<player id="101666" name="Commodore Euler" status="i" />
+	<player id="101670" name="President Helio" status="i" />
+	<player id="101674" name="Chancellor Titan" status="i" />
+	<player id="101699" name="Geologist Apus" status="i" />
+	<player id="101702" name="Vice Discory" status="i" />
+	<player id="101709" name="Bandit Deneb" status="i" />
+	<player id="101711" name="Destane" status="i" />
+	<player id="101717" name="Emperor Deuterium" status="i" />
+	<player id="101718" name="Captain Omega" status="i" />
+	<player id="101720" name="Vice Crux" status="i" />
+	<player id="101725" name="Chief Rocket" status="i" />
+	<player id="101726" name="Consul Comet" status="i" />
+	<player id="101728" name="hoolylin" status="i" />
+	<player id="101733" name="liliy886" status="i" />
+	<player id="101750" name="Stadtholder Elara" status="i" />
+	<player id="101757" name="DISASTER" status="o" alliance="82" />
+	<player id="101807" name="LOCUTIS" status="i" />
+	<player id="101832" name="ihh" status="i" />
+	<player id="101833" name="A is for Alex" alliance="8" />
+	<player id="101834" name="President Hale" status="i" />
+	<player id="101835" name="DaarthMistic" status="i" alliance="85" />
+	<player id="101842" name="DaarthEmperor" status="i" alliance="85" />
+	<player id="101843" name="Rosero" status="i" alliance="85" />
+	<player id="101844" name="Governor Sattelite" status="i" />
+	<player id="101848" name="Vengerax" />
+	<player id="101849" name="miu" status="vi" />
+	<player id="101855" name="Chancellor Meridian" alliance="77" />
+	<player id="101857" name="Stadtholder Ceti" status="i" />
+	<player id="101859" name="Renegade Horizon" status="i" />
+	<player id="101861" name="Vice Virgo" status="i" />
+	<player id="101863" name="Mogul Hunter" status="i" />
+	<player id="101864" name="Pheetz929" />
+	<player id="101865" name="Senator Hyperion" status="i" />
+	<player id="101872" name="Lord Aero" />
+	<player id="101879" name="Constable Remus" status="i" />
+	<player id="101880" name="Darth Sideous" status="v" alliance="39" />
+	<player id="101882" name="Chancellor Lagoon" status="i" />
+	<player id="101884" name="hehexd" status="i" />
+	<player id="101888" name="Geologist Terra" status="i" />
+	<player id="101890" name="Procurator Deuterium" status="i" />
+	<player id="101892" name="Admiral Phobos" status="i" />
+	<player id="101894" name="Vice Cupid" status="i" />
+	<player id="101902" name="Sovereign Seti" />
+	<player id="101906" name="Chief Ceres" status="i" />
+	<player id="101907" name="Proconsul Tarvos" status="i" />
+	<player id="101913" name="Mogul Spacewalk" status="i" />
+	<player id="101917" name="Marshal Ceres" status="i" />
+	<player id="101918" name="Commander Explorer" status="i" />
+	<player id="101921" name="Constable Metis" status="i" />
+	<player id="101923" name="fanir" />
+	<player id="101924" name="Emperor Atlas" status="i" />
+	<player id="101926" name="Renegade Vulcan" status="i" />
+	<player id="101927" name="Anecrophilliac" status="i" />
+	<player id="101928" name="Puppetmaster" alliance="82" />
+	<player id="101929" name="Procurator Galileo" status="i" />
+	<player id="101932" name="Empress Tikla" status="i" />
+	<player id="101934" name="Senator Viking" status="i" />
+	<player id="101935" name="Mogul Aries" status="i" />
+	<player id="101942" name="Technocrat Cosmo" status="i" />
+	<player id="101943" name="Chancellor Keid" status="i" />
+	<player id="101947" name="Tocs" alliance="8" />
+	<player id="101950" name="President Fay" status="i" />
+	<player id="101959" name="Vicegerent Mimas" status="i" />
+	<player id="101961" name="Marshal Io" status="i" />
+	<player id="101963" name="Renegade Supernova" status="i" />
+	<player id="101977" name="Hakkniv" status="i" alliance="79" />
+	<player id="101989" name="Nissen" status="i" />
+	<player id="101990" name="Sovereign Scout" status="i" />
+	<player id="102047" name="MasterBlint" status="i" />
+	<player id="102068" name="kopiuz" status="vi" alliance="52" />
+	<player id="102084" name="Director Epsilon" status="i" alliance="84" />
+	<player id="102091" name="Bandit Scout" status="i" />
+	<player id="102103" name="Engineer Andromeda" status="i" />
+	<player id="102105" name="Commodore Magnetar" status="i" />
+	<player id="102106" name="Marshal Sagan" status="i" />
+	<player id="102108" name="Procurator Tarvos" status="i" />
+	<player id="102109" name="Commander Zagadra" status="i" />
+	<player id="102111" name="Chief Flame" status="i" />
+	<player id="102113" name="chaos prime" />
+	<player id="102114" name="YoMomma" status="vi" alliance="82" />
+	<player id="102119" name="Code blue 123" status="i" />
+	<player id="102121" name="Homer" status="i" />
+	<player id="102127" name="Chief Kastra" status="i" />
+	<player id="102128" name="Procurator Seren" status="i" />
+	<player id="102133" name="Proconsul Moon" status="i" />
+	<player id="102137" name="Sovereign Ceti" status="i" />
+	<player id="102138" name="foxriver" status="i" />
+	<player id="102140" name="Consul Majoris" status="i" />
+	<player id="102141" name="milhata" alliance="86" />
+	<player id="102143" name="President Delta" status="i" />
+	<player id="102144" name="gerenimo" alliance="86" />
+	<player id="102145" name="Procurator Orbit" />
+	<player id="102146" name="kandonga" alliance="69" />
+	<player id="102147" name="Gormless Cretin" status="i" />
+	<player id="102149" name="mauishere" alliance="69" />
+	<player id="102151" name="Maverick" alliance="79" />
+	<player id="102160" name="Force" status="i" />
+	<player id="102162" name="Chief Saros" status="i" />
+	<player id="102163" name="berserkerPL" status="v" alliance="52" />
+	<player id="102164" name="Proconsul Aero" status="i" />
+	<player id="102168" name="Nyuu" alliance="8" />
+	<player id="102170" name="Governor Cosmo" status="i" />
+	<player id="102181" name="Director Mariner" status="i" />
+	<player id="102191" name="Levoltour" />
+	<player id="102199" name="Renegade Nusakan" status="i" />
+	<player id="102213" name="Chancellor Dawn" status="i" />
+	<player id="102221" name="Dark Ryu" alliance="8" />
+	<player id="102222" name="President Oberon" status="i" />
+	<player id="102239" name="stork" status="vi" />
+	<player id="102247" name="Xenia" status="i" />
+	<player id="102285" name="Renegade Castor" status="i" />
+	<player id="102287" name="Nozd" alliance="88" />
+	<player id="102288" name="OrionSSword" alliance="88" />
+	<player id="102289" name="Mogul Radiation" status="i" />
+	<player id="102292" name="Captain Sattelite" status="i" />
+	<player id="102293" name="Vice Retina" status="i" />
+	<player id="102294" name="Vicegerent Titan" status="i" />
+	<player id="102295" name="Procurator Pioneer" status="i" />
+	<player id="102302" name="mihail" />
+	<player id="102303" name="Vicegerent Solar" status="i" />
+	<player id="102304" name="jax17" status="vi" alliance="77" />
+	<player id="102305" name="Captain Eridanus" status="i" />
+	<player id="102307" name="Lord Etapheth" />
+	<player id="102308" name="Stomy" status="i" />
+	<player id="102313" name="Procurator Matter" status="i" />
+	<player id="102314" name="Senator Crux" alliance="77" />
+	<player id="102315" name="Kashgar" alliance="116" />
+	<player id="102318" name="Procurator Ferret" status="i" />
+	<player id="102319" name="Nick1263" alliance="116" />
+	<player id="102322" name="Vice Rocket" status="i" />
+	<player id="102325" name="Commander Nerys" status="i" alliance="62" />
+	<player id="102326" name="Geologist Eclipse" status="i" />
+	<player id="102332" name="CipoII" alliance="73" />
+	<player id="102333" name="Chief Antares" status="i" />
+	<player id="102338" name="Emperor Roland" />
+	<player id="102341" name="Alejandro" />
+	<player id="102342" name="Chief Phoebe" status="i" />
+	<player id="102348" name="Geologist Phoenix" status="i" />
+	<player id="102350" name="KaPiTaL_SiD" alliance="91" />
+	<player id="102364" name="Chancellor Sirius" status="i" />
+	<player id="102370" name="Emperor Leto" status="i" />
+	<player id="102371" name="Geologist Spica" status="i" />
+	<player id="102372" name="Proconsul Pioneer" status="i" />
+	<player id="102373" name="Admiral Matter" status="i" />
+	<player id="102375" name="Engineer Sigma" status="i" />
+	<player id="102376" name="Marshal Leonis" status="i" />
+	<player id="102383" name="Sovereign Barym" status="i" />
+	<player id="102388" name="President Ferret" status="i" />
+	<player id="102391" name="RedBeard95" status="i" />
+	<player id="102439" name="xX9Xx" status="vi" alliance="52" />
+	<player id="102446" name="luisjramirez" alliance="77" />
+	<player id="102447" name="Gremlin" status="i" />
+	<player id="102449" name="zeus" status="i" />
+	<player id="102474" name="Commander Wasat" status="i" />
+	<player id="102475" name="Stadtholder Space" status="i" />
+	<player id="102476" name="Defistrator" alliance="69" />
+	<player id="102482" name="Renegade Celestial" status="i" />
+	<player id="102483" name="Mogul Solar" status="i" />
+	<player id="102485" name="Commander Alyssia" status="i"
+		alliance="52" />
+	<player id="102489" name="OptimusPrime" alliance="47" />
+	<player id="102490" name="Mogul Remus" status="i" />
+	<player id="102492" name="Constable Phoebe" status="i" />
+	<player id="102494" name="Constable Flyby" status="i" />
+	<player id="102495" name="Ravinscar" status="i" />
+	<player id="102497" name="Renegade" alliance="91" />
+	<player id="102500" name="Kanac" alliance="88" />
+	<player id="102503" name="Admiral Terra" status="i" />
+	<player id="102510" name="Best Miner" status="vi" />
+	<player id="102518" name="Newcro" />
+	<player id="102524" name="Governor Phoenix" status="i" />
+	<player id="102530" name="tjoyave" alliance="94" />
+	<player id="102534" name="President Neptune" status="i" />
+	<player id="102541" name="N7 Destroyer" alliance="94" />
+	<player id="102543" name="Procurator Sigma" status="i" />
+	<player id="102544" name="Chancellor Japetus" status="i" />
+	<player id="102548" name="Renegade Orcus" status="i" />
+	<player id="102549" name="Engineer Crux" status="i" />
+	<player id="102553" name="Lord Sauron" status="i" alliance="89" />
+	<player id="102554" name="Joexcx" status="i" />
+	<player id="102559" name="Emperor Neso" status="i" />
+	<player id="102561" name="Technocrat Perseus" status="i" />
+	<player id="102562" name="RicknMorty" status="i" />
+	<player id="102563" name="Geologist Euler" status="i" />
+	<player id="102573" name="Jefe Deuterio" status="i" />
+	<player id="102595" name="Chancellor Sunspot" />
+	<player id="102620" name="Captain Snoidmon" />
+	<player id="102621" name="Renic" alliance="99" />
+	<player id="102625" name="Emperor June Sato" />
+	<player id="102627" name="kutang" />
+	<player id="102636" name="Marshal Gamma" status="i" />
+	<player id="102656" name="Logan Trujillo XVIII" status="i" />
+	<player id="102659" name="Cruor" status="vi" />
+	<player id="102661" name="WarHawk" status="i" />
+	<player id="102716" name="Smercio" status="vi" />
+	<player id="102718" name="Vice Sedna" status="i" />
+	<player id="102726" name="Senator Uriel" status="i" />
+	<player id="102740" name="Vrucaon" status="i" />
+	<player id="102741" name="Falrul" status="i" />
+	<player id="102748" name="Marshal Eos" status="i" />
+	<player id="102750" name="Recepsor" status="i" />
+	<player id="102752" name="PROMETHEUS" status="i" />
+	<player id="102757" name="Guy Chadwick" status="vi" />
+	<player id="102759" name="Ragnar Lodbrok" status="v" alliance="32" />
+	<player id="102763" name="spidermike" />
+	<player id="102769" name="Governor Gemini" status="i" />
+	<player id="102772" name="Commodore Mars" status="i" />
+	<player id="102779" name="OgKush" status="i" />
+	<player id="102782" name="Captain Quantum" status="i" />
+	<player id="102783" name="Spartan147" alliance="77" />
+	<player id="102784" name="General Boredom" alliance="73" />
+	<player id="102788" name="Gorgan" alliance="73" />
+	<player id="102789" name="Director Vostok" status="i" />
+	<player id="102794" name="GRazny" status="v" alliance="67" />
+	<player id="102797" name="Technocrat Deimos" status="i" />
+	<player id="102805" name="WpRicco" alliance="94" />
+	<player id="102812" name="Marshal Delta" status="i" />
+	<player id="102813" name="Alien" status="o" />
+	<player id="102817" name="Sovereign Dorado" />
+	<player id="102819" name="DrVooDoo13" alliance="73" />
+	<player id="102821" name="Czar Janus" status="i" />
+	<player id="102828" name="Cross Marian" />
+	<player id="102829" name="Chancellor Palma" status="i" />
+	<player id="102831" name="Vicegerent Altair" status="i" />
+	<player id="102836" name="STARS AND STRIPES" />
+	<player id="102840" name="Director Taurus" status="i" />
+	<player id="102856" name="UScrisdias_j" />
+	<player id="102860" name="CreepyJL" alliance="111" />
+	<player id="102863" name="Panic Attack" alliance="94" />
+	<player id="102864" name="TheReciever" alliance="36" />
+	<player id="102865" name="Nynjatic" status="i" />
+	<player id="102886" name="carrier" alliance="8" />
+	<player id="102890" name="Old Grundle" status="i" />
+	<player id="102891" name="TheJesseElders" />
+	<player id="102974" name="Whatificouldfly" alliance="109" />
+	<player id="102975" name="Technocrat Atlas" />
+	<player id="102995" name="Castle" status="i" />
+	<player id="102996" name="tjrrb123" status="vib" />
+	<player id="102997" name="Colonel Sanders" alliance="109" />
+	<player id="102998" name="Rafkim" status="i" />
+	<player id="103000" name="Parsons987" status="i" />
+	<player id="103002" name="Nikos Kalantas" alliance="94" />
+	<player id="103006" name="Proconsul Voids" status="i" />
+	<player id="103009" name="ddd" alliance="67" />
+	<player id="103010" name="Andrzej" />
+	<player id="103014" name="Feanoru" />
+	<player id="103019" name="izetfazlinovic" status="i" />
+	<player id="103021" name="tavor" status="i" />
+	<player id="103022" name="ibufuki" status="i" />
+	<player id="103024" name="Murdererererer" status="i" />
+	<player id="103027" name="Consul Barym" />
+	<player id="103028" name="Captain Vega" status="i" />
+	<player id="103029" name="Sidekick" alliance="96" />
+	<player id="103030" name="Tonni" alliance="96" />
+	<player id="103031" name="Khas" status="i" />
+	<player id="103036" name="Senator Saturn" status="i" />
+	<player id="103039" name="Marshal Asteroid" status="i" />
+	<player id="103042" name="Engineer Magellan" status="i" />
+	<player id="103043" name="Emperor Sagittarius" />
+	<player id="103046" name="Director Charon" status="i" />
+	<player id="103048" name="Vicegerent Volans" status="i" />
+	<player id="103049" name="Kazadum" status="i" alliance="36" />
+	<player id="103054" name="Geologist Comet" alliance="52" />
+	<player id="103055" name="papatsakas" status="i" />
+	<player id="103056" name="Vice Sattelite" status="i" />
+	<player id="103060" name="scotnol" status="i" />
+	<player id="103064" name="Rebelcat" status="i" />
+	<player id="103065" name="DarkFenriR" />
+	<player id="103073" name="Chancellor Flame" status="i" />
+	<player id="103077" name="Captain Sun" status="i" />
+	<player id="103080" name="Sovereign Saros" status="i" />
+	<player id="103083" name="Procurator Mercury" status="i" />
+	<player id="103089" name="Ronson" status="i" />
+	<player id="103090" name="Ezio93" alliance="116" />
+	<player id="103098" name="mosmiit" status="i" />
+	<player id="103108" name="Omega Supreme" alliance="108" />
+	<player id="103110" name="Renegade Ceres" status="i" />
+	<player id="103111" name="Silent" status="i" />
+	<player id="103112" name="Constable Fay" status="i" />
+	<player id="103115" name="LucidLobster" />
+	<player id="103118" name="Sovereign Vesta" status="i" />
+	<player id="103121" name="Geologist Eos" status="i" />
+	<player id="103125" name="The Virius" status="i" />
+	<player id="103127" name="Commodore Grimm" status="i" />
+	<player id="103128" name="ShadowQueen92" alliance="79" />
+	<player id="103131" name="Vinummanct1995" status="i" />
+	<player id="103140" name="Chancellor Erato" status="i" />
+	<player id="103156" name="Sovereign Zodiac" status="i" />
+	<player id="103162" name="George" status="i" />
+	<player id="103164" name="Consul Spirit" status="i" />
+	<player id="103166" name="Augustus" status="v" />
+	<player id="103170" name="Gangsta" alliance="94" />
+	<player id="103182" name="WooieBoo" alliance="100" />
+	<player id="103184" name="Vice Epsilon" status="i" />
+	<player id="103187" name="Captain Solar" status="i" />
+	<player id="103189" name="Bandit Vela" status="i" />
+	<player id="103194" name="koegen" alliance="69" />
+	<player id="103197" name="Chancellor Comet" status="i" />
+	<player id="103200" name="Stadtholder Orion" status="i" />
+	<player id="103201" name="aslid1" status="i" />
+	<player id="103202" name="Cpettit42" status="i" />
+	<player id="103203" name="President Hydra" status="i" />
+	<player id="103207" name="Elmo1080" status="i" />
+	<player id="103209" name="Shoborken" alliance="69" />
+	<player id="103210" name="Commander Zaxle" status="i" />
+	<player id="103212" name="Constable Owl" status="i" />
+	<player id="103213" name="Dragonhawk" alliance="111" />
+	<player id="103215" name="Ladie RedJo" status="i" />
+	<player id="103217" name="Timmameister" />
+	<player id="103219" name="JP232" status="i" />
+	<player id="103226" name="Commodore Eos" status="i" />
+	<player id="103228" name="Dalfein" status="vi" />
+	<player id="103229" name="Hardblood" alliance="8" />
+	<player id="103230" name="President Octavian" status="i" />
+	<player id="103232" name="amasyali" status="i" />
+	<player id="103237" name="Venus43" status="i" />
+	<player id="103238" name="Lord Discory" status="i" />
+	<player id="103241" name="Procurator Sunspot" status="i" />
+	<player id="103242" name="Dyson Amok" alliance="100" />
+	<player id="103244" name="Azador" alliance="133" />
+	<player id="103256" name="THUNDERBOLT" status="vi" />
+	<player id="103261" name="Emperor Perseids" status="i" />
+	<player id="103264" name="RandomHero" status="i" />
+	<player id="103266" name="KappaRoss" alliance="91" />
+	<player id="103268" name="Lavender Phoenix" status="i" />
+	<player id="103270" name="Governor Sigma" status="i" />
+	<player id="103281" name="Buff" alliance="94" />
+	<player id="103282" name="CroOne" />
+	<player id="103292" name="SHADOW" status="i" />
+	<player id="103301" name="Czar Andromeda" status="i" />
+	<player id="103306" name="Lord Orb" status="i" />
+	<player id="103313" name="Mio" status="v" alliance="69" />
+	<player id="103332" name="Czar Eridanus" status="i" />
+	<player id="103337" name="Vice Orcus" status="i" />
+	<player id="103338" name="Commander Omicron" status="i" />
+	<player id="103340" name="Alpharoth" status="i" />
+	<player id="103348" name="Hero" status="i" />
+	<player id="103349" name="Commodore Pavo" status="i" />
+	<player id="103352" name="Stadtholder Neutrino" status="i" />
+	<player id="103361" name="Engineer Fidis" status="i" />
+	<player id="103367" name="chadmmc" />
+	<player id="103368" name="qqqq" status="i" />
+	<player id="103369" name="manwe" status="i" />
+	<player id="103370" name="NieBIj" status="i" />
+	<player id="103379" name="Constable Helix" status="i" />
+	<player id="103382" name="Bandit Sagittarius" status="i" />
+	<player id="103385" name="Sovereign Ferret" status="i" />
+	<player id="103386" name="Constable Aten" status="i" />
+	<player id="103390" name="Chancellor Meteor" status="i" />
+	<player id="103410" name="Vicegerent Mariner" status="i" />
+	<player id="103454" name="Vice Metis" status="i" />
+	<player id="103455" name="Du77ry" />
+	<player id="103458" name="Vicegerent Corvus" status="i" />
+	<player id="103459" name="gamerz26" status="i" />
+	<player id="103462" name="niubbitan" alliance="5" />
+	<player id="103466" name="razer" />
+	<player id="103472" name="Procurator Nusakan" status="i" />
+	<player id="103484" name="barakara" />
+	<player id="103485" name="Niko" status="vi" />
+	<player id="103486" name="CaptTrypps" />
+	<player id="103488" name="Heimdall" status="i" />
+	<player id="103490" name="Renegade Themis" status="i" />
+	<player id="103499" name="Marshall Dillon" alliance="116" />
+	<player id="103501" name="qwe50279" />
+	<player id="103504" name="Proconsul Buzz" status="i" />
+	<player id="103505" name="Vilga" status="v" />
+	<player id="103511" name="Schumi248" />
+	<player id="103519" name="Heston" status="i" />
+	<player id="103523" name="Rockage" status="i" />
+	<player id="103526" name="Director Titan" status="i" />
+	<player id="103528" name="Procurator Lagoon" status="i" />
+	<player id="103533" name="Engineer Zibal" status="i" />
+	<player id="103534" name="Renegade Delta" status="i" />
+	<player id="103535" name="Proconsul Leda" status="i" />
+	<player id="103537" name="Tatore" status="i" />
+	<player id="103538" name="Peki" alliance="88" />
+	<player id="103541" name="Mogul Magnetar" status="i" />
+	<player id="103542" name="Stadtholder Stellar" status="i" />
+	<player id="103544" name="Commodore Galileo" status="i" />
+	<player id="103545" name="Renegade Orbiter" status="i" />
+	<player id="103546" name="Procurator Helio" status="i" />
+	<player id="103547" name="Governor Spirit" status="i" />
+	<player id="103551" name="Mogul Sagittarius" status="i" />
+	<player id="103552" name="Mogul Nestor" status="i" />
+	<player id="103556" name="Sarcophaguy" />
+	<player id="103557" name="Admiral Vela" status="i" />
+	<player id="103558" name="Dark Rogue" alliance="111" />
+	<player id="103560" name="President Stellar" status="i" />
+	<player id="103563" name="Director Erato" status="i" />
+	<player id="103572" name="Vicegerent Helix" status="i" />
+	<player id="103573" name="eteddyg" />
+	<player id="103575" name="Stadtholder Meteor" status="i" />
+	<player id="103581" name="Technocrat Meridian" status="i" />
+	<player id="103582" name="Marshal Orbit" status="i" />
+	<player id="103584" name="Chief Andromeda" status="i" />
+	<player id="103587" name="robbijj" />
+	<player id="103588" name="SilentDeath47" status="i" alliance="69" />
+	<player id="103589" name="Thicas" status="i" />
+	<player id="103590" name="Governor Altair" status="i" />
+	<player id="103591" name="Consul Amos" status="i" />
+	<player id="103592" name="Technocrat Echo" status="i" />
+	<player id="103594" name="Bandit Icarus" status="i" />
+	<player id="103598" name="Technocrat Transit" status="i" />
+	<player id="103599" name="Stadtholder Aerglo" />
+	<player id="103605" name="lordaseco" />
+	<player id="103613" name="Chief Osiris" status="i" />
+	<player id="103616" name="Emperor Aurora" status="i" />
+	<player id="103642" name="hemeblande" status="i" />
+	<player id="103649" name="Bandit Quantum" />
+	<player id="103671" name="muto" alliance="100" />
+	<player id="103673" name="guani" status="i" />
+	<player id="103676" name="Consul Mars" alliance="77" />
+	<player id="103683" name="Shepherd" alliance="133" />
+	<player id="103685" name="General Scales" status="i" />
+	<player id="103687" name="deadline" status="i" alliance="105" />
+	<player id="103693" name="Rivicus Max" status="i" />
+	<player id="103694" name="Constable Ferret" status="i" />
+	<player id="103696" name="Harvison Station" alliance="111" />
+	<player id="103697" name="Constable Yakini" status="i" />
+	<player id="103700" name="Admiral Apus" status="i" />
+	<player id="103703" name="Stadtholder Aurora" status="i" />
+	<player id="103704" name="Bandit Orbit" status="i" />
+	<player id="103705" name="Sovereign Grus" status="i" />
+	<player id="103706" name="Cryptic" status="i" />
+	<player id="103708" name="Czar Beid" status="i" />
+	<player id="103710" name="Commander Zenith" status="i" />
+	<player id="103714" name="Bandit Mercury" status="i" />
+	<player id="103717" name="Consul Rigel" status="i" />
+	<player id="103718" name="Commodore Perseids" />
+	<player id="103722" name="Stadtholder Scout" status="i" />
+	<player id="103723" name="Chief Helios" status="i" />
+	<player id="103730" name="Admiral Celestial" status="i" />
+	<player id="103733" name="Teirney" status="i" />
+	<player id="103734" name="Commodore Lagoon" status="i" />
+	<player id="103735" name="Nikolaj Delaney" />
+	<player id="103736" name="Consul Helios" status="i" />
+	<player id="103737" name="Lord Kanarem" />
+	<player id="103738" name="Senator Genesis" status="i" />
+	<player id="103740" name="Mitallock1994" status="i" />
+	<player id="103743" name="razor1977" />
+	<player id="103746" name="Marshal Archer" status="i" />
+	<player id="103751" name="Vicegerent Oberon" status="i" />
+	<player id="103752" name="Bandit Nestor" status="i" />
+	<player id="103753" name="Director Orb" status="i" />
+	<player id="103754" name="Engineer Yakini" status="i" />
+	<player id="103755" name="Lord Portia" status="i" />
+	<player id="103757" name="Commodore Phoenix" status="i" />
+	<player id="103758" name="Emperor Kytherian" status="i" />
+	<player id="103759" name="Geologist Omicron" status="i" />
+	<player id="103760" name="Vice Orion" status="i" />
+	<player id="103764" name="Marshal Barym" status="i" />
+	<player id="103767" name="Senator Erato" status="i" />
+	<player id="103768" name="fcfifa2002" status="i" />
+	<player id="103773" name="ARTOFWAR" status="i" />
+	<player id="103775" name="Deth Viper" status="i" />
+	<player id="103778" name="Senator Pathfinder" status="i" />
+	<player id="103779" name="DarkStar" status="v" />
+	<player id="103785" name="Lord Perseus" />
+	<player id="103787" name="OldMan86" />
+	<player id="103789" name="Proconsul Proton" status="i" />
+	<player id="103790" name="Consul Deimos" status="i" />
+	<player id="103795" name="Lieutenant Pandora" status="i" />
+	<player id="103800" name="Proconsul Puck" status="i" />
+	<player id="103801" name="Admiral Ceti" status="i" />
+	<player id="103805" name="malindac" status="i" />
+	<player id="103806" name="Senator Transit" status="i" />
+	<player id="103807" name="Petronius" alliance="133" />
+	<player id="103810" name="jeffers3" />
+	<player id="103811" name="Renegade Cassini" status="i" />
+	<player id="103816" name="Technocrat Nomad" />
+	<player id="103819" name="Blood Wolf" alliance="111" />
+	<player id="103820" name="Commodore Mariner" status="i" />
+	<player id="103821" name="kappapride" status="i" />
+	<player id="103823" name="M4CHINE" />
+	<player id="103827" name="Vicegerent Owl" status="i" />
+	<player id="103828" name="Governor Uranus" status="i" />
+	<player id="103836" name="Procurator Uranus" status="i" />
+	<player id="103840" name="Engineer Oberon" />
+	<player id="103844" name="Mogul Taurus" status="i" alliance="113" />
+	<player id="103845" name="Procurator Celestial" status="i" />
+	<player id="103846" name="Chancellor Star" status="i" />
+	<player id="103847" name="Mogul Metis" status="i" />
+	<player id="103850" name="Renegade Sagan" status="i" />
+	<player id="103851" name="Consul Tauri" status="i" />
+	<player id="103852" name="matthewsorge35" status="i" />
+	<player id="103853" name="Lieutenant Elara" status="i" />
+	<player id="103854" name="Commander Galaxy" status="i" />
+	<player id="103857" name="orcarion" />
+	<player id="103858" name="Chief Leo" status="i" />
+	<player id="103860" name="Marshal Voids" />
+	<player id="103862" name="Marshal Redshift" status="i" />
+	<player id="103864" name="Lieutenant Ares" status="i" />
+	<player id="103865" name="Consul Herschel" status="i" />
+	<player id="103869" name="derekpz" alliance="8" />
+	<player id="103870" name="Consul Vulcan" status="i" />
+	<player id="103879" name="LilBean" status="i" />
+	<player id="103880" name="Mogul Navi" status="i" />
+	<player id="103884" name="Proconsul Auriga" status="i" />
+	<player id="103886" name="Bandit Explorer" status="i" />
+	<player id="103887" name="Vice Seren" status="i" />
+	<player id="103888" name="Ousce1975" status="i" />
+	<player id="103891" name="captain killa" status="i" />
+	<player id="103899" name="BobbyR961" status="i" />
+	<player id="103903" name="Chancellor Gliese" status="i" />
+	<player id="103907" name="Insurgent" status="i" />
+	<player id="103908" name="Constable Perseus" status="i" />
+	<player id="103909" name="Technocrat Eos" status="i" />
+	<player id="103910" name="Difebath" status="i" />
+	<player id="103915" name="Commander Pecor" status="i" />
+	<player id="103917" name="Czar Phobos" />
+	<player id="103920" name="Black" status="i" />
+	<player id="103922" name="smeakle" status="i" />
+	<player id="103928" name="Lord Solar" status="i" />
+	<player id="103934" name="Bandit Orb" status="i" />
+	<player id="103938" name="Captain Awesome" alliance="77" />
+	<player id="103939" name="Stadtholder Oort" status="i" />
+	<player id="103945" name="steddy" alliance="134" />
+	<player id="103948" name="President Archer" status="i" />
+	<player id="103953" name="Primtwin" alliance="47" />
+	<player id="103955" name="Grand Masters Arme" status="v" />
+	<player id="103957" name="Engineer Nusakan" status="i" />
+	<player id="103962" name="LordElijah" status="i" />
+	<player id="103969" name="Czar Ceres" status="i" />
+	<player id="103975" name="Oldedawg" />
+	<player id="103977" name="Ossat" status="i" />
+	<player id="103983" name="Onyx" />
+	<player id="103984" name="Vicegerent Octans" status="i" />
+	<player id="103986" name="Captain Sagan" status="i" alliance="115" />
+	<player id="103992" name="Commodore Callisto" status="i" />
+	<player id="103998" name="Lord Owl" status="i" />
+	<player id="103999" name="COLDSHANK" status="i" />
+	<player id="104020" name="Constable Eris" alliance="117" />
+	<player id="104022" name="Vicegerent Magellan" status="i" />
+	<player id="104024" name="Director Kastra" status="i" />
+	<player id="104025" name="THULSA DOOM" alliance="117" />
+	<player id="104026" name="Wakbrdn" alliance="117" />
+	<player id="104027" name="Spieler" alliance="117" />
+	<player id="104028" name="Darthskruffinator" alliance="117" />
+	<player id="104030" name="Director Eris" status="i" />
+	<player id="104032" name="islandwoodsie" alliance="118" />
+	<player id="104034" name="Stadtholder Star" status="i" />
+	<player id="104035" name="Constable Erato" status="i" />
+	<player id="104038" name="Mareceing" status="i" />
+	<player id="104040" name="Beefis" alliance="69" />
+	<player id="104041" name="Czar Mariner" status="i" />
+	<player id="104044" name="Captain Hydra" alliance="118" />
+	<player id="104048" name="Krapto" />
+	<player id="104049" name="Lord Nykk" alliance="120" />
+	<player id="104050" name="Lucian" alliance="118" />
+	<player id="104051" name="Scrime" status="i" />
+	<player id="104052" name="F7VectorRaptor" status="i" />
+	<player id="104056" name="Lord Thraisindor" status="i" />
+	<player id="104063" name="AdmireGalaxy" />
+	<player id="104064" name="lisztdent" />
+	<player id="104065" name="ospf" status="i" />
+	<player id="104069" name="panxyz" alliance="134" />
+	<player id="104070" name="Lord Octans" status="i" />
+	<player id="104073" name="Emperor Spacewalk" />
+	<player id="104075" name="Technocrat Elara" status="i" />
+	<player id="104078" name="XFalloutX" alliance="73" />
+	<player id="104079" name="Senator Neso" status="i" />
+	<player id="104080" name="Engineer Orb" status="i" />
+	<player id="104083" name="LordDon" alliance="119" />
+	<player id="104084" name="President Cupid" status="i" />
+	<player id="104088" name="Tanis" />
+	<player id="104089" name="Jack Frost" alliance="118" />
+	<player id="104090" name="zeusthegreat" status="i" />
+	<player id="104098" name="Omicron" />
+	<player id="104101" name="Geologist Explorer" status="i" />
+	<player id="104111" name="Governor Icarus" />
+	<player id="104112" name="Damn" alliance="118" />
+	<player id="104113" name="Director Aerglo" status="i" />
+	<player id="104115" name="Constable Omega" status="i" />
+	<player id="104117" name="Renegade Volans" status="i" />
+	<player id="104118" name="Governor Perseus" status="i" />
+	<player id="104123" name="Chancellor Tarvos" />
+	<player id="104126" name="Technocrat Leto" status="i" />
+	<player id="104130" name="Procurator Klio" status="i" />
+	<player id="104133" name="Admiral Herschel" status="i" />
+	<player id="104136" name="Vice Pulsar" />
+	<player id="104138" name="Commander Fenrir" status="i" />
+	<player id="104139" name="InfoGame" status="vib" />
+	<player id="104140" name="Emperor Pavo" status="i" />
+	<player id="104142" name="Lieutenant Solar" status="i" />
+	<player id="104145" name="Info-Game" status="vib" />
+	<player id="104146" name="Game-Info" status="vib" />
+	<player id="104147" name="Marshal Galaxy" status="i" />
+	<player id="104148" name="Marshal Celestial" status="i" />
+	<player id="104150" name="Technocrat Hyperion" />
+	<player id="104151" name="Emperor Cupid" status="i" />
+	<player id="104153" name="Chief Midas" status="i" />
+	<player id="104157" name="iClipse" status="i" />
+	<player id="104161" name="President Genesis" status="i" />
+	<player id="104162" name="DonJai" status="i" />
+	<player id="104164" name="Bandit Infrared" status="i" />
+	<player id="104165" name="issel" alliance="47" />
+	<player id="104168" name="Admiral Ganimed" status="i" />
+	<player id="104169" name="Chief Nusakan" status="i" />
+	<player id="104170" name="Mogul Aerglo" status="i" />
+	<player id="104172" name="Senator Apollo" status="i" />
+	<player id="104174" name="HyenaCorp" alliance="133" />
+	<player id="104175" name="Lieutenant Sedna" status="i" />
+	<player id="104177" name="Marshal Corona" status="i" />
+	<player id="104179" name="Lieutenant Helios" status="i" />
+	<player id="104182" name="Engineer Fenrir" status="i" />
+	<player id="104183" name="Commodore Tauri" status="i" />
+	<player id="104184" name="Emperor Magellan" status="i" />
+	<player id="104185" name="Chief Sedna" status="i" />
+	<player id="104186" name="Mogul Pluto" status="i" alliance="94" />
+	<player id="104187" name="Engineer Hati" status="i" />
+	<player id="104188" name="Busashi" status="i" />
+	<player id="104189" name="Consul Kore" status="i" />
+	<player id="104190" name="Director Pollux" status="i" />
+	<player id="104192" name="Gunny Ashmore" alliance="121" />
+	<player id="104193" name="Renevant" status="i" />
+	<player id="104195" name="Engineer Genesis" />
+	<player id="104196" name="Info_Game" status="vib" />
+	<player id="104197" name="Game_Info" status="vib" />
+	<player id="104198" name="GameInfo" status="vib" />
+	<player id="104203" name="Chief Klio" />
+	<player id="104206" name="Info Game" status="vib" />
+	<player id="104210" name="Billow7" status="i" />
+	<player id="104212" name="Captain Keid" status="i" />
+	<player id="104213" name="Constable Lagoon" status="i" />
+	<player id="104217" name="Lieutenant Asteroid" status="i" />
+	<player id="104222" name="Mine Director Zorg" alliance="47" />
+	<player id="104224" name="Commander Aten" status="i" />
+	<player id="104225" name="Czar Galileo" status="i" />
+	<player id="104226" name="Chizzy" status="i" />
+	<player id="104228" name="Keldarstorm" alliance="94" />
+	<player id="104230" name="Emperor Perseus" alliance="124" />
+	<player id="104235" name="Technocrat Saros" status="i" />
+	<player id="104237" name="Senator Galileo" status="i" />
+	<player id="104238" name="Free Game Info" status="vib" />
+	<player id="104239" name="FreeGameInfo" status="vib" />
+	<player id="104240" name="Game Free Info" status="vib" />
+	<player id="104242" name="Mogul Twighlight" status="i" />
+	<player id="104244" name="Senator Solar" status="i" />
+	<player id="104245" name="President Moon" status="i" />
+	<player id="104249" name="Commodore Star" status="i" />
+	<player id="104252" name="mourizos" alliance="94" />
+	<player id="104253" name="rustler" status="i" />
+	<player id="104254" name="Fahzza" alliance="47" />
+	<player id="104258" name="TERRARIUM BRAVERIOUS" status="i" />
+	<player id="104260" name="King Wolf 1st" status="i" />
+	<player id="104261" name="Captain Titan" status="i" />
+	<player id="104262" name="Davian" />
+	<player id="104263" name="Renegade Meridian" status="i" />
+	<player id="104265" name="Consul Supernova" status="i" />
+	<player id="104267" name="shockey" alliance="47" />
+	<player id="104268" name="Vice Zenith" status="i" />
+	<player id="104274" name="Renegade Helix" status="i" />
+	<player id="104280" name="C0c0nut" status="i" />
+	<player id="104290" name="Sovereign Saturn" status="i" />
+	<player id="104292" name="Lieutenant Centauri" status="i" />
+	<player id="104294" name="Engineer Pathfinder" status="i" />
+	<player id="104297" name="Fubble Squad" alliance="47" />
+	<player id="104298" name="President Proton" status="i" />
+	<player id="104301" name="Admiral Jupiter" status="i" />
+	<player id="104306" name="Siguld" status="i" />
+	<player id="104308" name="Admiral Ackbar" />
+	<player id="104310" name="Renegade Icarus" status="i" />
+	<player id="104311" name="Commander Vela" status="i" />
+	<player id="104313" name="Lord Interstellar" status="i" />
+	<player id="104314" name="Czar Octans" status="i" />
+	<player id="104315" name="dirtz" alliance="111" />
+	<player id="104316" name="Couzare" alliance="8" />
+	<player id="104317" name="Stadtholder Oberon" status="i" />
+	<player id="104319" name="Vicegerent Pulsar" status="i" />
+	<player id="104325" name="Director Orbiter" status="i" />
+	<player id="104326" name="King Cypher" status="i" />
+	<player id="104328" name="Consul Skat" status="i" />
+	<player id="104330" name="Styxjames28" status="i" />
+	<player id="104331" name="Lieutenant Genesis" status="i" />
+	<player id="104334" name="Engineer Callisto" status="i" />
+	<player id="104336" name="Captain Parrish" status="i" />
+	<player id="104342" name="Geologist Saturn" status="i" />
+	<player id="104343" name="Proconsul Spirit" status="i" />
+	<player id="104350" name="Treladae" alliance="47" />
+	<player id="104351" name="Procurator Kepler" status="i" />
+	<player id="104353" name="Director Callisto" status="i" />
+	<player id="104363" name="Cykielan" alliance="129" />
+	<player id="104367" name="50cntsbitch" status="i" />
+	<player id="104368" name="Consul Ultraviolet" status="i" />
+	<player id="104369" name="Out-Of-Time" alliance="94" />
+	<player id="104370" name="Chief Fidis" status="i" />
+	<player id="104371" name="Consul Rhea" status="i" />
+	<player id="104377" name="The God Emperah" />
+	<player id="104389" name="Constable Celestial" status="i" />
+	<player id="104394" name="Procurator Euler" status="i" />
+	<player id="104395" name="SweetAction22" />
+	<player id="104398" name="Marshal Rocket" status="i" />
+	<player id="104399" name="Director Palma" status="i" />
+	<player id="104408" name="Duke de Albuquerque" status="i" />
+	<player id="104410" name="Emperor Elara" status="i" />
+	<player id="104411" name="Warlord Apollo" />
+	<player id="104412" name="Senator Meteor" status="i" />
+	<player id="104413" name="derlej" alliance="130" />
+	<player id="104415" name="Senator Zodiac" status="i" />
+	<player id="104418" name="Prozaca" />
+	<player id="104419" name="Proconsul Herschel" status="i" />
+	<player id="104421" name="Stadtholder Pandora" status="i" />
+	<player id="104422" name="Stadtholder Quasar" status="i" />
+	<player id="104423" name="Captain Twighlight" status="i" />
+	<player id="104424" name="Chancellor Helix" status="i" />
+	<player id="104425" name="Admiral Sirius" status="i" />
+	<player id="104428" name="Skrp-QA" alliance="47" />
+	<player id="104429" name="nephilim" />
+	<player id="104431" name="Bandit Fay" alliance="47" />
+	<player id="104432" name="Kintango" status="i" />
+	<player id="104437" name="tjrrb12" status="vi" />
+	<player id="104439" name="Bandit Helix" status="i" />
+	<player id="104441" name="Engineer Themis" status="i" />
+	<player id="104442" name="Admiral Comet" status="i" />
+	<player id="104446" name="jumper" status="i" />
+	<player id="104448" name="Lieutenant Quantum" status="i" />
+	<player id="104449" name="FallenAngel" status="i" />
+	<player id="104453" name="Gate" />
+	<player id="104455" name="Nesu" status="i" />
+	<player id="104458" name="Bloodhawk" />
+	<player id="104460" name="Lieutenant Lepus" status="i" />
+	<player id="104461" name="Technocrat Proteus" status="i" />
+	<player id="104462" name="Vicegerent Zodiac" status="i" />
+	<player id="104469" name="Proconsul Flare" status="i" />
+	<player id="104470" name="Wandering Thunder" alliance="47" />
+	<player id="104474" name="Constable Saturn" status="i" />
+	<player id="104479" name="Vicegerent Portia" status="i" />
+	<player id="104480" name="Consul Orbit" status="i" />
+	<player id="104482" name="jer904" status="i" />
+	<player id="104485" name="Lord Nebula" alliance="69" />
+	<player id="104486" name="Christalionas" alliance="94" />
+	<player id="104492" name="Czar Leto" status="i" />
+	<player id="104494" name="Consul Omicron" status="i" />
+	<player id="104501" name="pincopallini" status="i" />
+	<player id="104503" name="President Lepus" status="i" />
+	<player id="104504" name="Choi_Soon_Sil" />
+	<player id="104510" name="Technocrat Nestor" />
+	<player id="104512" name="Commodore Retina" alliance="69" />
+	<player id="104515" name="Capetan Justice" status="i" />
+	<player id="104519" name="Engineer Jericho" alliance="88" />
+	<player id="104525" name="Captain Astral" status="i" />
+	<player id="104532" name="Feeder" status="i" />
+	<player id="104534" name="DD971" status="i" />
+	<player id="104536" name="Master Greysire" status="i" />
+	<player id="104538" name="Czar Helio" status="i" />
+	<player id="104540" name="GreenWeen" alliance="69" />
+	<player id="104544" name="Geologist Starburst" status="i" />
+	<player id="104545" name="Private Napkin" />
+	<player id="104550" name="Procurator Cosmo" status="i" />
+	<player id="104551" name="Mogul Polaris" status="i" />
+	<player id="104552" name="flyingyoloman" status="i" />
+	<player id="104556" name="Admiral Sao" status="i" />
+	<player id="104557" name="Karkarov" alliance="111" />
+	<player id="104559" name="Constable Eridanus" status="i" />
+	<player id="104560" name="Proconsul Saros" />
+	<player id="104562" name="Sovereign Alpha" status="i" />
+	<player id="104563" name="Renegade Barym" status="i" />
+	<player id="104567" name="Chancellor Lambda" status="i" />
+	<player id="104568" name="Admiral Eris" />
+	<player id="104570" name="President Malin" />
+	<player id="104572" name="Bandit Midas" status="i" />
+	<player id="104573" name="Harbard" alliance="111" />
+	<player id="104579" name="Commander Halo" status="i" />
+	<player id="104580" name="Warlord602" status="i" />
+	<player id="104581" name="Geologist Libra" status="i" />
+	<player id="104582" name="Chancellor Vulcan" status="i" />
+	<player id="104583" name="Count Von Viskas" alliance="111" />
+	<player id="104584" name="Chancellor Euler" status="i" />
+	<player id="104585" name="Mogul Yakini" status="i" />
+	<player id="104586" name="Consul Galileo" status="i" />
+	<player id="104587" name="Engineer Dawn" status="i" />
+	<player id="104588" name="crash300" />
+	<player id="104589" name="Stadtholder Altair" status="i" />
+	<player id="104590" name="Goinat" status="i" />
+	<player id="104591" name="Chief Flare" status="i" />
+	<player id="104592" name="Stadtholder Omicron" status="i" />
+	<player id="104593" name="Bacte1991" status="i" />
+	<player id="104594" name="Technocrat Indus" status="i" />
+	<player id="104595" name="Governor Pioneer" status="i" />
+	<player id="104596" name="Commodore Cassini" status="i" />
+	<player id="104597" name="Chancellor Scorpius" status="i" />
+	<player id="104598" name="Procurator Eagle" status="i" />
+	<player id="104599" name="Geologist Amaral" status="i" />
+	<player id="104600" name="Inte1989" status="i" />
+	<player id="104601" name="Ency1990" status="i" />
+	<player id="104602" name="LewPewPew" status="i" />
+	<player id="104603" name="Vice Ranger" status="i" />
+	<player id="104604" name="Emperor Orcus" status="i" />
+	<player id="104605" name="Abhorsen" status="i" />
+	<player id="104606" name="Anniand" status="i" />
+	<player id="104607" name="Lord Eridanus" status="i" />
+	<player id="104608" name="Constable Tauri" status="i" />
+	<player id="104609" name="Captain Gliese" alliance="116" />
+	<player id="104610" name="Salmalon" />
+	<player id="104611" name="Senator Zagadra" status="i" />
+	<player id="104612" name="Thessom" status="i" />
+	<player id="104613" name="Sovereign Star" status="i" />
+	<player id="104614" name="Consul Octans" status="i" />
+	<player id="104615" name="Proconsul Scorpius" status="i" />
+	<player id="104616" name="Technocrat Erato" />
+	<player id="104617" name="Renegade Rocket" status="i" />
+	<player id="104618" name="luyuping" alliance="111" />
+	<player id="104619" name="Affelf" />
+	<player id="104620" name="Quess1978" status="i" />
+	<player id="104621" name="Governor Trojan" status="i" />
+	<player id="104623" name="Chancellor Barym" status="i" />
+	<player id="104624" name="tox" status="i" />
+	<player id="104625" name="Engineer Meteor" status="i" />
+	<player id="104626" name="Technocrat Jupiter" status="i" />
+	<player id="104627" name="Constable Hercules" />
+	<player id="104628" name="Procurator Amaral" status="i" />
+	<player id="104629" name="Director Sunspot" status="i" />
+	<player id="104630" name="Mad Mardigan" />
+	<player id="104631" name="Admiral Probe" status="i" />
+	<player id="104632" name="zulqar" status="i" />
+	<player id="104633" name="Vice Ferret" status="i" />
+	<player id="104634" name="Vice Asteroid" status="i" />
+	<player id="104635" name="Equbi" status="i" />
+	<player id="104636" name="Director Nova" status="i" />
+	<player id="104637" name="Director Nash" status="i" />
+	<player id="104638" name="Senator Thrust" status="i" />
+	<player id="104639" name="Stadtholder Zibal" status="i" />
+	<player id="104640" name="Marshal Parsec" />
+	<player id="104641" name="Consul Mimas" />
+	<player id="104642" name="Consul Io" />
+	<player id="104643" name="Synergy" alliance="148" />
+	<player id="104644" name="Emperor Leda" />
+	<player id="104645" name="Technocrat Phobos" />
+	<player id="104646" name="Geologist Dawn" />
+	<player id="104647" name="Commodore Lepus" />
+	<player id="104648" name="Governor Cupid" />
+	<player id="104649" name="Bandit Phobos" />
+	<player id="104650" name="Czar Neso" />
+	<player id="104651" name="Vice Kepler" />
+	<player id="104652" name="Admiral Cassini" />
+	<player id="104653" name="Commander Perseus" />
+	<player id="104654" name="Stadtholder Eris" />
+	<player id="104655" name="Chief Retina" />
+	<player id="104656" name="Sovereign Pegasus" />
+	<player id="104657" name="Governor Vega" />
+	<player id="104658" name="LOWENS" />
+	<player id="104659" name="Vice Sagan" />
+	<player id="104660" name="Governor Skat" />
+	<player id="104661" name="Nitlaf" alliance="79" />
+	<player id="104662" name="Lieutenant Zibal" />
+	<player id="104663" name="Geologist Grus" />
+	<player id="104664" name="zzz" />
+	<player id="104665" name="uuu" />
+	<player id="104666" name="Bandit Sattelite" />
+	<player id="104667" name="Senator Interstellar" />
+	<player id="104668" name="Jarvis" alliance="134" />
+	<player id="104669" name="Zenek" status="o" alliance="111" />
+	<player id="104670" name="Marshal Corvus" />
+	<player id="104671" name="Renegade Stardust" />
+	<player id="104672" name="Marshal Orb" />
+	<player id="104673" name="Chief Cosmos" />
+	<player id="104674" name="Commodore Orbit" />
+	<player id="104675" name="Commander Mizar" />
+	<player id="104676" name="Chief Skat" />
+	<player id="104677" name="Commander Magellan" />
+	<player id="104678" name="s9220723" />
+	<player id="104679" name="Constable Cosmos" />
+	<player id="104680" name="Chancellor Vesta" />
+	<player id="104681" name="FuradaN" />
+	<player id="104682" name="Commodore Sun" />
+	<player id="104683" name="Stadtholder Cupid" />
+	<player id="104684" name="Mogul Retina" />
+	<player id="104685" name="Proconsul Andromeda" />
+	<player id="104686" name="Czar Zenith" />
+	<player id="104687" name="Bandit Ceres" />
+	<player id="104688" name="Kapitan Aramus" />
+	<player id="104689" name="Mogul Apus" />
+	<player id="104690" name="Vicegerent Fidis" />
+	<player id="104691" name="Constable Malin" />
+	<player id="104692" name="Lieutenant Altair" />
+	<player id="104693" name="Mogul Ferret" />
+	<player id="104694" name="Kninz" />
+	<player id="104695" name="Proconsul Echo" />
+	<player id="104696" name="Admiral Astral" />
+	<player id="104697" name="Commander Skat" />
+	<player id="104698" name="Sovereign Sagan" />
+	<player id="104699" name="Emperor Quantum" />
+	<player id="104700" name="Governor Ultraviolet" />
+	<player id="104701" name="Chancellor Nomad" />
+	<player id="104702" name="Commodore Voyager" />
+	<player id="104703" name="Senator Zuben" />
+	<player id="104704" name="Marshal Starburst" />
+	<player id="104705" name="lord DChief Vela" />
+	<player id="104706" name="Bandit Virgo" />
+	<player id="104707" name="OBKqIN58RkI" status="v" />
+	<player id="104708" name="Renegade Tau" />
+	<player id="104709" name="Constable Icarus" />
+	<player id="104710" name="Sovereign Cassini" />
+	<player id="104712" name="Sovereign Horizon" />
+	<player id="104713" name="Bandit Amos" />
+	<player id="104714" name="Chancellor Space" />
+	<player id="104715" name="Commodore Fidis" />
+	<player id="104716" name="President Galaxy" />
+	<player id="104717" name="Deselance" />
+	<player id="104718" name="Proconsul Viking" />
+	<player id="104719" name="Engineer Pioneer" />
+	<player id="104720" name="Director Vektor" />
+	<player id="104721" name="Bandit Titan" />
+	<player id="104722" name="Marshal Elara" />
+	<player id="104723" name="Marshal Thrust" />
+	<player id="104724" name="Constable Io" />
+	<player id="104725" name="President Pan" />
+	<player id="104726" name="Commander Spacewalk" />
+	<player id="104727" name="Procurator Neutrino" />
+	<player id="104728" name="I1j" />
+	<player id="104729" name="Geologist Scorpius" />
+	<player id="104730" name="Governor Cosmos" />
+	<player id="104731" name="Procurator Universe" />
+	<player id="104732" name="Chancellor Davida" />
+	<player id="104733" name="Commander Uriel" />
+	<player id="104734" name="Renegade Omega" />
+	<player id="104735" name="Constable Terra" />
+	<player id="104736" name="Bandit Vektor" />
+	<player id="104737" name="Lord Asteroid" />
+	<player id="104738" name="Adrenaleet" alliance="47" />
+	<player id="104739" name="Sovereign Omicron" />
+	<player id="104740" name="Senator Probe" />
+	<player id="104741" name="Consul Fay" />
+	<player id="104742" name="Lieutenant Deuterium" />
+	<player id="104743" name="Geologist Charon" />
+	<player id="104744" name="commander nens" />
+	<player id="104745" name="President Zagadra" />
+	<player id="104746" name="Llosidian" alliance="73" />
+	<player id="104747" name="kimera" />
+	<player id="104748" name="Dartainian" />
+	<player id="104749" name="Euro Fighter" />
+	<player id="104750" name="Vicegerent Echo" />
+	<player id="104751" name="RunWhileUCan" />
+	<player id="104752" name="Director Virgo" />
+	<player id="104753" name="Uncle Scrooge" />
+	<player id="104754" name="President Pulsar" />
+	<player id="104755" name="ogamer" status="vb" alliance="131" />
+	<player id="104756" name="ogamer2" status="vb" alliance="131" />
+	<player id="104757" name="ogamer3" status="vb" alliance="131" />
+	<player id="104758" name="Engineer Skat" />
+	<player id="104759" name="President Meridian" />
+	<player id="104760" name="Kraken" alliance="132" />
+	<player id="104761" name="Frias" status="v" alliance="132" />
+	<player id="104762" name="Emperor Neptune" />
+	<player id="104763" name="Chamm" alliance="132" />
+	<player id="104764" name="Alcoholic Obelix" alliance="132" />
+	<player id="104765" name="kenbone" alliance="132" />
+	<player id="104766" name="Maren" />
+	<player id="104767" name="Geologist Vulcan" />
+	<player id="104768" name="Captain Gravity" />
+	<player id="104769" name="Vice Nemesis" />
+	<player id="104770" name="Blasted" />
+	<player id="104771" name="Captain Malin" />
+	<player id="104772" name="PlutoQuack" />
+	<player id="104773" name="PrinceKhaled" alliance="73" />
+	<player id="104774" name="Qwert" />
+	<player id="104775" name="lord" />
+	<player id="104776" name="Gargamel" alliance="145" />
+	<player id="104777" name="Director Sputnik" />
+	<player id="104778" name="Retief" />
+	<player id="104779" name="Consul Puck" />
+	<player id="104780" name="Captain Hubble" />
+	<player id="104781" name="Nexus" />
+	<player id="104782" name="Captain Flame" />
+	<player id="104783" name="Technocrat Ferret" />
+	<player id="104784" name="Governor Euler" />
+	<player id="104785" name="twinshock" alliance="116" />
+	<player id="104786" name="Stadtholder Malin" alliance="135" />
+	<player id="104787" name="felix" />
+	<player id="104788" name="Raizure" alliance="116" />
+	<player id="104789" name="Renegade Flame" />
+	<player id="104790" name="Constable Moon" />
+	<player id="104791" name="Engineer Cupid" />
+	<player id="104792" name="Johndeere16" />
+	<player id="104793" name="Czar Pallas" />
+	<player id="104794" name="Constable Xanthus" />
+	<player id="104795" name="Emperor Astra" />
+	<player id="104796" name="Sovereign Genesis" />
+	<player id="104797" name="Molnar" />
+	<player id="104798" name="GATutnic" />
+	<player id="104799" name="Mogul Ganimed" />
+	<player id="104800" name="Technocrat Sedna" />
+	<player id="104801" name="Krayzie" alliance="111" />
+	<player id="104802" name="Mogul Rocket" />
+	<player id="104804" name="Josh" />
+	<player id="104805" name="Commodore Pollux" />
+	<player id="104806" name="SheShaggy" />
+	<player id="104807" name="Krathon" />
+	<player id="104808" name="Proconsul Deimos" />
+	<player id="104809" name="Sovereign Spica" />
+	<player id="104810" name="Bandit Saturn" />
+	<player id="104811" name="Procurator Gliese" />
+	<player id="104812" name="Topgun365" />
+	<player id="104813" name="Blizzard" alliance="111" />
+	<player id="104814" name="Geologist Pulsar" />
+	<player id="104815" name="Vice Pathfinder" />
+	<player id="104816" name="Admiral Antimatter" />
+	<player id="104817" name="Danasaur" />
+	<player id="104818" name="myphoneisdead" />
+	<player id="104819" name="Engineer Probe" />
+	<player id="104820" name="Senator Hubble" />
+	<player id="104821" name="Renegade Rover" />
+	<player id="104822" name="Chancellor Terra" />
+	<player id="104823" name="Senator Gamma" />
+	<player id="104824" name="Lieutenant Scorpius" />
+	<player id="104825" name="ggggggggg" />
+	<player id="104826" name="Vice Vektor" />
+	<player id="104827" name="Vice Osiris" />
+	<player id="104828" name="RonaldTrump" />
+	<player id="104829" name="Senator Sagan" />
+	<player id="104830" name="DragonStar" alliance="139" />
+	<player id="104831" name="Commander Deuterium" />
+	<player id="104832" name="Renegade Neutron" />
+	<player id="104833" name="Dynamicx" />
+	<player id="104834" name="Cremator" />
+	<player id="104835" name="Chief Wezen" />
+	<player id="104836" name="Myrddin" />
+	<player id="104837" name="Morlock" />
+	<player id="104838" name="Invzerk" />
+	<player id="104839" name="Stadtholder Hubble" />
+	<player id="104840" name="Ser Lou Scunt" alliance="136" />
+	<player id="104841" name="sari" alliance="27" />
+	<player id="104842" name="Quantum" alliance="136" />
+	<player id="104843" name="Alphamasterbeta" alliance="136" />
+	<player id="104844" name="Bandit Leo" />
+	<player id="104845" name="Scynon" />
+	<player id="104846" name="Constable Quantum" />
+	<player id="104847" name="Sovereign Aero" />
+	<player id="104848" name="Director Orion" />
+	<player id="104849" name="betamasteralpha" alliance="136" />
+	<player id="104850" name="Technocrat Tycho" />
+	<player id="104851" name="Badiddle" alliance="136" />
+	<player id="104852" name="Admiral Octans" />
+	<player id="104853" name="Falcon" alliance="136" />
+	<player id="104854" name="Governor Sputnik" />
+	<player id="104855" name="Fritz" />
+	<player id="104856" name="Lieutenant Nusakan" />
+	<player id="104857" name="Emperor Gamma" />
+	<player id="104858" name="Geologist Pluto" />
+	<player id="104859" name="Emperor Eos" />
+	<player id="104860" name="Engineer Zenith" />
+	<player id="104861" name="Admiral Pandora" />
+	<player id="104862" name="Marshal Solar" />
+	<player id="104863" name="Director Stardust" />
+	<player id="104864" name="President Pavo" />
+	<player id="104865" name="Vice Pallas" />
+	<player id="104866" name="Vice Ganimed" />
+	<player id="104867" name="Osiris Faulkner" />
+	<player id="104868" name="Commander Japetus" />
+	<player id="104869" name="Mogul Wasat" />
+	<player id="104870" name="President Pioneer" />
+	<player id="104871" name="Constable Explorer" />
+	<player id="104872" name="Commander Eagle" />
+	<player id="104873" name="Governor Hale" />
+	<player id="104874" name="GALACTUS" alliance="38" />
+	<player id="104875" name="Mogul Vostok" />
+	<player id="104876" name="Technocrat Seren" />
+	<player id="104877" name="Werecat" />
+	<player id="104878" name="Admiral Corona" />
+	<player id="104879" name="lucifer16" />
+	<player id="104880" name="Titan314" />
+	<player id="104881" name="Bandit Beid" />
+	<player id="104882" name="Mogul Tau" />
+	<player id="104883" name="Mogul Deimos" />
+	<player id="104884" name="razorr89" alliance="139" />
+	<player id="104885" name="Governor Retina" />
+	<player id="104886" name="OB-GF-TEST" />
+	<player id="104887" name="Lieutenant Sunspot" />
+	<player id="104888" name="IronFist" />
+	<player id="104889" name="asdasdasdasd" />
+	<player id="104890" name="Death_Note_TR" />
+	<player id="104891" name="Czar Cosmos" />
+	<player id="104892" name="Lieutenant Skat" />
+	<player id="104894" name="Engineer Starburst" />
+	<player id="104895" name="Constable Davida" />
+	<player id="104896" name="President Wasat" />
+	<player id="104897" name="President Amyb" />
+	<player id="104898" name="NOOBCOPTER" alliance="134" />
+	<player id="104899" name="Geologist Astral" />
+	<player id="104900" name="Senator Mizar" />
+	<player id="104901" name="Marshal Voyager" />
+	<player id="104902" name="Sovereign Astral" />
+	<player id="104903" name="Vicegerent Virgo" />
+	<player id="104904" name="Darth Bubba" />
+	<player id="104905" name="Consul Sedna" />
+	<player id="104906" name="Technocrat Kore" />
+	<player id="104907" name="Mogul Kale" />
+	<player id="104908" name="DragonMoon" />
+	<player id="104909" name="Consul Hydra" />
+	<player id="104910" name="Technocrat Eagle" />
+	<player id="104911" name="Lord Titan" />
+	<player id="104912" name="Emperor Saros" />
+	<player id="104913" name="Lord Horizon" />
+	<player id="104914" name="Renegade Mikey" />
+	<player id="104915" name="Proconsul Space" />
+	<player id="104916" name="Constable Magnetar" />
+	<player id="104917" name="Governor Columbo" />
+	<player id="104918" name="ICP" alliance="143" />
+	<player id="104919" name="President Oort" />
+	<player id="104920" name="JayThirty" />
+	<player id="104921" name="Admiral Pioneer" />
+	<player id="104922" name="Governor Celestialll" />
+	<player id="104923" name="onslaughth2" alliance="69" />
+	<player id="104924" name="Governor Ranger" />
+	<player id="104925" name="Dionysus" />
+	<player id="104926" name="Sovereign Rigel" />
+	<player id="104927" name="Captain Fidis" />
+	<player id="104928" name="Sovereign Deimos" />
+	<player id="104929" name="Blitz" />
+	<player id="104930" name="Czar Pavo" />
+	<player id="104931" name="Mogul Vesta" />
+	<player id="104932" name="Ammoz" />
+	<player id="104933" name="bloodlesshope" alliance="73" />
+	<player id="104934" name="Senator Pulsar" />
+	<player id="104935" name="Commodore Proton" />
+	<player id="104936" name="SirJeanPulse" />
+	<player id="104937" name="Proconsul Leonis" />
+	<player id="104938" name="jlrq" alliance="69" />
+	<player id="104939" name="Zero" />
+	<player id="104940" name="Marshal Zodiac" />
+	<player id="104941" name="Commander Gravity" />
+	<player id="104942" name="Director Oort" />
+	<player id="104943" name="Czar Retina" />
+	<player id="104944" name="President Asteroid" />
+	<player id="104945" name="Mogul Jupiter" />
+	<player id="104947" name="Czar Sigma" />
+	<player id="104948" name="Geologist Owl" alliance="142" />
+	<player id="104949" name="Thor" />
+	<player id="104950" name="Chief Flyby" />
+	<player id="104951" name="Procurator Halo" />
+	<player id="104952" name="Chief Mizar" />
+	<player id="104953" name="Azgarum" />
+	<player id="104954" name="kbrndn" alliance="145" />
+	<player id="104955" name="Vice Universe" />
+	<player id="104956" name="Director Explorer" />
+	<player id="104957" name="Senator Buzz" />
+	<player id="104958" name="Captain Fireball" />
+	<player id="104959" name="Chief Astral" />
+	<player id="104960" name="Havoc" />
+	<player id="104961" name="Spillblood" />
+	<player id="104962" name="Chancellor Europa" />
+	<player id="104963" name="Constable Eagle" />
+	<player id="104964" name="Chief Artemis" />
+	<player id="104965" name="Vicegerent Sedna" />
+	<player id="104966" name="Engineer Osiris" />
+	<player id="104967" name="Captain X" />
+	<player id="104968" name="Captain Starburst" />
+	<player id="104969" name="Lieutenant Hunter" />
+	<player id="104970" name="Captain Zagadra" />
+	<player id="104971" name="Spankers" alliance="136" />
+	<player id="104972" name="Commodore Hubble" />
+	<player id="104974" name="Constable Skat" />
+	<player id="104975" name="Vicegerent Uriel" />
+	<player id="104976" name="Senator Amos" />
+	<player id="104977" name="Chief Corona" />
+	<player id="104978" name="Consul Proton" />
+	<player id="104979" name="Chancellor Hati" />
+	<player id="104980" name="Lieutenant Fenrir" />
+	<player id="104981" name="Engineer Supernova" />
+	<player id="104982" name="Czar Xanthus" />
+	<player id="104983" name="Ander" />
+	<player id="104984" name="The Sylara Virus" />
+	<player id="104985" name="Vicegerent Kore" />
+	<player id="104986" name="Senator Aten" />
+	<player id="104987" name="Grand Admiral Green" />
+	<player id="104989" name="Lieutenant Ferret" />
+	<player id="104990" name="The_Hulkster" />
+	<player id="104991" name="Vicegerent Charon" />
+	<player id="104992" name="Lord Infrared" />
+	<player id="104993" name="Lieutenant Sun" />
+	<player id="104994" name="Senator Wasat" />
+	<player id="104995" name="Renegade Phoenix" />
+	<player id="104996" name="Admiral Mariner" />
+	<player id="104997" name="TheLegened27" />
+	<player id="104998" name="Vicegerent Vektor" />
+	<player id="104999" name="Stadtholder Nebula" />
+	<player id="105000" name="Lord Quantum" />
+	<player id="105001" name="Director Sol" />
+	<player id="105002" name="CrazyLeg" />
+	<player id="105003" name="MadDog" />
+	<player id="105004" name="Constable Themis" />
+	<player id="105005" name="johnfl54" />
+	<player id="105006" name="Senator Alpha" />
+	<player id="105007" name="Consul Remus" />
+	<player id="105008" name="Raven" />
+	<player id="105009" name="Czar Erato" />
+	<player id="105010" name="Senator Aries" />
+	<player id="105011" name="Procurator Viking" />
+	<player id="105012" name="ricci" />
+	<player id="105013" name="Procurator Rover" />
+	<player id="105014" name="Commander Mosby" />
+	<player id="105015" name="Senator Octans" />
+	<player id="105016" name="Czar Callisto" />
+	<player id="105017" name="Consul Aries" />
+	<player id="105018" name="Constable Pan" alliance="144" />
+	<player id="105019" name="Vice Apollo" />
+	<player id="105020" name="Recruta" />
+	<player id="105021" name="Bandit Puck" />
+	<player id="105022" name="Geologist Parsec" />
+	<player id="105023" name="Marshal Discory" />
+	<player id="105024" name="Mar_I_O" />
+	<player id="105025" name="Stadtholder Infrared" />
+	<player id="105026" name="Vicegerent Tauri" />
+	<player id="105027" name="Sovereign Vektor" />
+	<player id="105028" name="Commodore Sputnik" />
+	<player id="105029" name="Solnechnaia" alliance="146" />
+	<player id="105030" name="Djoni" alliance="146" />
+	<player id="105031" name="Xaxa" alliance="146" />
+	<player id="105032" name="Akakiy" alliance="146" />
+	<player id="105033" name="fcbc" alliance="146" />
+	<player id="105034" name="Admiral Tauri" />
+	<player id="105035" name="Commodore Auriga" />
+	<player id="105036" name="Lieutenant Metis" />
+	<player id="105037" name="Governor Omicron" />
+	<player id="105038" name="Proconsul Sputnik" />
+	<player id="105039" name="President Neso" />
+	<player id="105040" name="Nish" />
+	<player id="105041" name="Proconsul Remus" />
+	<player id="105042" name="Mogul Cetus" />
+	<player id="105043" name="TheJeyK" />
+	<player id="105044" name="Sovereign Probe" />
+	<player id="105045" name="Geologist Scout" />
+	<player id="105046" name="Lord Fay" />
+	<player id="105047" name="Vice Scorpius" />
+	<player id="105048" name="Femto" />
+	<player id="105049" name="Procurator Skat" />
+	<player id="105050" name="President Neutron" />
+	<player id="105051" name="Proconsul Orbiter" />
+	<player id="105052" name="Yamawaka" />
+	<player id="105053" name="Jim E" />
+	<player id="105054" name="Captain Sedna" />
+	<player id="105055" name="Jaori Melkins" />
+	<player id="105056" name="Director Sun" />
+	<player id="105057" name="pippo" />
+	<player id="105058" name="Vice Mariner" />
+	<player id="105059" name="Governor Grus" />
+	<player id="105060" name="Renegade Oberon" />
+	<player id="105061" name="Marshal Sattelite" />
+	<player id="105062" name="KomunistProteksionis" alliance="146" />
+	<player id="105063" name="Emperor Herschel" />
+	<player id="105064" name="Lord Cosmo" />
+	<player id="105065" name="Admiral Ranger" />
+	<player id="105066" name="Himavari" alliance="146" />
+	<player id="105067" name="Senator Malin" />
+	<player id="105068" name="ExcitedMe" />
+	<player id="105069" name="Doganpekdogan" />
+	<player id="105070" name="Scorpion Man" />
+	<player id="105071" name="darkgoat" alliance="136" />
+	<player id="105072" name="Vice Vega" />
+	<player id="105073" name="Murzilka" alliance="146" />
+	<player id="105074" name="Akantor" />
+	<player id="105075" name="Emperor Oort" />
+	<player id="105076" name="commandoviper" />
+	<player id="105077" name="antonio19" />
+	<player id="105078" name="Chief Crux" />
+	<player id="105079" name="Geologist Spirit" />
+	<player id="105080" name="Vice Deuterium" />
+	<player id="105081" name="Czar Kale" />
+	<player id="105082" name="Renegade Saturn" />
+	<player id="105083" name="Czar Space" />
+	<player id="105084" name="despicableYou" />
+	<player id="105085" name="Commander Neutron" />
+	<player id="105086" name="Gound" />
+	<player id="105087" name="Proconsul Parsec" />
+	<player id="105088" name="Marshal Sputnik" />
+	<player id="105089" name="Technocrat Rhea" />
+	<player id="105090" name="Vicegerent Nomad" />
+	<player id="105091" name="M1977" />
+	<player id="105092" name="Stadtholder Wasat" />
+	<player id="105093" name="Marshal Proton" />
+	<player id="105094" name="Stadtholder Icarus" />
+	<player id="105095" name="Geologist Flyby" />
+	<player id="105096" name="Vice Mimas" />
+	<player id="105097" name="Marshal Cosmo" />
+	<player id="105098" name="Bandit Ares" alliance="147" />
+	<player id="105099" name="Captain Erato" />
+	<player id="105100" name="Commander Helios" />
+	<player id="105101" name="Lord Hellbound" />
+	<player id="105102" name="Marc Crip" />
+	<player id="105103" name="Chief Davida" />
+	<player id="105104" name="Mogul Gliese" />
+	<player id="105105" name="evldandy" />
+	<player id="105106" name="Marshal Jericho" />
+	<player id="105107" name="He1md411" />
+	<player id="105108" name="zsdfdsf" />
+	<player id="105109" name="Emperor Kuma" />
+	<player id="105110" name="Mogul Gamma" />
+	<player id="105111" name="Chief Kepler" />
+	<player id="105112" name="Scurvyscoundrel" />
+	<player id="105113" name="Lieutenant Nekkar" />
+	<player id="105114" name="Stormmaster" />
+	<player id="105115" name="Sovereign Fenrir" />
+	<player id="105116" name="Captain Bone" />
+	<player id="105117" name="Marshal Hydra" />
+	<player id="105118" name="beetlegossip" />
+	<player id="105119" name="Bandit Sunspot" />
+	<player id="105120" name="Lieutenant Davida" />
+	<player id="105121" name="Geologist Ganimed" />
+	<player id="105122" name="Mad2p" />
+	<player id="105123" name="Geologist Janus" />
+	<player id="105124" name="Constable Corvus" />
+	<player id="105125" name="datrtle14" />
+	<player id="105126" name="Chancellor Gamma" />
+	<player id="105127" name="SpiderMonkey" />
+	<player id="105128" name="Geologist Nemesis" />
+	<player id="105129" name="Procurator Fay" />
+	<player id="105130" name="Sovereign Herschel" />
+	<player id="105131" name="Commodore Proteus" />
+	<player id="105132" name="Engineer Pallas" />
+	<player id="105133" name="download" />
+	<player id="105134" name="Consul Nusakan" />
+	<player id="105135" name="Oldshoe" />
+	<player id="105136" name="Traveller" />
+	<player id="105137" name="Marshal Pioneer" />
+	<player id="105138" name="Ike" />
+	<player id="105139" name="Constable Sedna" />
+	<player id="105140" name="Procurator Apollo" />
+	<player id="105141" name="Czar Orbiter" />
+	<player id="105142" name="BattleMaggot" />
+	<player id="105143" name="Commander Yakini" />
+	<player id="105144" name="Captain Amaral" />
+	<player id="105145" name="Renegade Pavo" />
+	<player id="105146" name="Dreadnaught" />
+	<player id="105147" name="Sahar Valar" />
+	<player id="105148" name="Governor Atlas" />
+	<player id="105149" name="Mogul Pan" />
+	<player id="105150" name="Baebab" />
+	<player id="105151" name="Renegade Neutrino" />
+	<player id="105152" name="Technocrat Artemis" />
+	<player id="105153" name="jamil" />
+	<player id="105154" name="Emperor Mizar" />
+	<player id="105155" name="Mogul Davida" />
+	<player id="105156" name="CharmingPig" alliance="69" />
+	<player id="105157" name="Vice Leto" />
+	<player id="105158" name="Dagiwok" />
+	<player id="105159" name="Governor Aerglo" />
+	<player id="105160" name="Czar Hale" />
+	<player id="105161" name="Emperor Omicron" />
+	<player id="105162" name="Mogul Oberon" />
+	<player id="105163" name="Midnite" />
+	<player id="105164" name="Marshal Alpha" />
+	<player id="105165" name="Virus" />
+	<player id="105166" name="Chief Viking" />
+	<player id="105167" name="Chief Omega" />
+</players>

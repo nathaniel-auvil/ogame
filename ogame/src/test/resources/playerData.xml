@@ -1,0 +1,24 @@
+<!-- https://s136-us.ogame.gameforge.com/api/playerData.xml?id=104946 -->
+<?xml version="1.0" encoding="UTF-8"?>
+<playerData id="104946" name="pitdingo"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="https://s136-us.ogame.gameforge.com/api/xsd/playerData.xsd"
+	timestamp="1494167848" serverId="us136">
+	<positions>
+		<position type="0" score="584">631</position>
+		<position type="1" score="406">623</position>
+		<position type="2" score="121">637</position>
+		<position type="3" score="87" ships="26">564</position>
+		<position type="4" score="0">1916</position>
+		<position type="5" score="87">662</position>
+		<position type="6" score="6">600</position>
+		<position type="7" score="0">1842</position>
+	</positions>
+	<planets>
+		<planet id="33634942" name="Michigan" coords="3:18:12" />
+	</planets>
+	<alliance id="73">
+		<name>Big Dawg Gaming</name>
+		<tag>BIGDAWGS</tag>
+	</alliance>
+</playerData>
