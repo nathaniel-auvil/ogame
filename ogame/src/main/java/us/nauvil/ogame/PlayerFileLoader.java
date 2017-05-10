@@ -7,6 +7,8 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.sql.Types;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -24,10 +26,11 @@ public class PlayerFileLoader extends FileLoader {
 	@Override
 	protected void process(Document document) {
 
-		
-	 System.out.println("timestamp: " + document.getDocumentElement().getAttribute("timestamp"));
-		
-		
+		// System.out.println("timestamp: " +
+		// document.getDocumentElement().getAttribute("timestamp"));
+		SimpleDateFormat format = new SimpleDateFormat("yyyyMMdd");
+		Integer dayId = Integer.parseInt(format.format(new Date(Long.parseLong(document.getDocumentElement().getAttribute("timestamp") + "000"))));
+
 		try {
 			Class.forName("org.postgresql.Driver");
 		} catch (ClassNotFoundException e) {
@@ -60,12 +63,14 @@ public class PlayerFileLoader extends FileLoader {
 					String name = eElement.getAttribute("name");
 					String status = eElement.getAttribute("status");
 					Integer alliance = (eElement.getAttribute("alliance").trim().length() == 0) ? null : Integer.parseInt(eElement.getAttribute("alliance"));
-					Integer dayid = 20170509;
 
-					//System.out.print("id: " + eElement.getAttribute("id"));
-					//System.out.print("\tname: " + eElement.getAttribute("name"));
-					//System.out.print("\t\tstatus : " + eElement.getAttribute("status"));
-					//System.out.println("\talliance : " + eElement.getAttribute("alliance"));
+					// System.out.print("id: " + eElement.getAttribute("id"));
+					// System.out.print("\tname: " +
+					// eElement.getAttribute("name"));
+					// System.out.print("\t\tstatus : " +
+					// eElement.getAttribute("status"));
+					// System.out.println("\talliance : " +
+					// eElement.getAttribute("alliance"));
 
 					// System.out.println("alliance : " +
 					// eElement.getElementsByTagName("alliance").item(0).getTextContent());
@@ -79,11 +84,19 @@ public class PlayerFileLoader extends FileLoader {
 						} else {
 							preparedStatement.setNull(4, Types.INTEGER);
 						}
-						preparedStatement.setInt(5, dayid);
+						preparedStatement.setInt(5, dayId);
 
 						preparedStatement.executeUpdate();
 					}
-					// preparedStatement.close();
+					catch( SQLException s )
+					{
+						if(s.getSQLState().equals("23000")) {
+							System.out.println("duplicate key");
+						}
+						else {
+							s.printStackTrace();
+						}
+					}
 				}
 			}
 		} catch (SQLException e) {
