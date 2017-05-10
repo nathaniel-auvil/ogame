@@ -1,3 +1,4 @@
+<!-- https://s136-us.ogame.gameforge.com/api/players.xml -->
 <?xml version="1.0" encoding="UTF-8"?>
 <players xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="https://s136-us.ogame.gameforge.com/api/xsd/players.xsd"
