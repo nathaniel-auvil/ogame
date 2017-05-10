@@ -24,6 +24,10 @@ public class PlayerFileLoader extends FileLoader {
 	@Override
 	protected void process(Document document) {
 
+		
+	 System.out.println("timestamp: " + document.getDocumentElement().getAttribute("timestamp"));
+		
+		
 		try {
 			Class.forName("org.postgresql.Driver");
 		} catch (ClassNotFoundException e) {
@@ -58,25 +62,28 @@ public class PlayerFileLoader extends FileLoader {
 					Integer alliance = (eElement.getAttribute("alliance").trim().length() == 0) ? null : Integer.parseInt(eElement.getAttribute("alliance"));
 					Integer dayid = 20170509;
 
-					System.out.print("id: " + eElement.getAttribute("id"));
-					System.out.print("\tname: " + eElement.getAttribute("name"));
-					System.out.print("\t\tstatus : " + eElement.getAttribute("status"));
-					System.out.println("\talliance : " + eElement.getAttribute("alliance"));
+					//System.out.print("id: " + eElement.getAttribute("id"));
+					//System.out.print("\tname: " + eElement.getAttribute("name"));
+					//System.out.print("\t\tstatus : " + eElement.getAttribute("status"));
+					//System.out.println("\talliance : " + eElement.getAttribute("alliance"));
 
 					// System.out.println("alliance : " +
 					// eElement.getElementsByTagName("alliance").item(0).getTextContent());
 
-					PreparedStatement preparedStatement = c.prepareStatement(insertTableSQL);
-					preparedStatement.setInt(1, id);
-					preparedStatement.setString(2, name);
-					preparedStatement.setString(3, status);
-					if (alliance != null)
-						preparedStatement.setInt(4, alliance);
-					else
-						preparedStatement.setNull(4, Types.INTEGER);
-					preparedStatement.setInt(5, dayid);
+					try (PreparedStatement preparedStatement = c.prepareStatement(insertTableSQL)) {
+						preparedStatement.setInt(1, id);
+						preparedStatement.setString(2, name);
+						preparedStatement.setString(3, status);
+						if (alliance != null) {
+							preparedStatement.setInt(4, alliance);
+						} else {
+							preparedStatement.setNull(4, Types.INTEGER);
+						}
+						preparedStatement.setInt(5, dayid);
 
-					preparedStatement.executeUpdate();
+						preparedStatement.executeUpdate();
+					}
+					// preparedStatement.close();
 				}
 			}
 		} catch (SQLException e) {
