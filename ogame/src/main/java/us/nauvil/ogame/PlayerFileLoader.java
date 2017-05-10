@@ -2,6 +2,11 @@ package us.nauvil.ogame;
 
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import java.sql.Types;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -19,28 +24,64 @@ public class PlayerFileLoader extends FileLoader {
 	@Override
 	protected void process(Document document) {
 
-		NodeList nList = document.getElementsByTagName("player");
+		try {
+			Class.forName("org.postgresql.Driver");
+		} catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 
-		System.out.println("----------------------------");
+		String insertTableSQL = "INSERT INTO players" + "(ID, NAME, STATUS, ALLIANCE, DAYID) VALUES" + "(?,?,?,?,?)";
 
-		for (int temp = 0; temp < nList.getLength(); temp++) {
+		try (Connection c = DriverManager.getConnection("jdbc:postgresql://localhost:5432/postgres", "postgres", "viper21")) {
+			c.setAutoCommit(true);
+			System.out.println("Opened database successfully");
 
-			Node nNode = nList.item(temp);
+			NodeList nList = document.getElementsByTagName("player");
 
-			// System.out.println("\nCurrent Element :" + nNode.getNodeName());
+			System.out.println("----------------------------");
 
-			if (nNode.getNodeType() == Node.ELEMENT_NODE) {
+			for (int temp = 0; temp < nList.getLength(); temp++) {
 
-				Element eElement = (Element) nNode;
+				Node nNode = nList.item(temp);
 
-				System.out.print("id: " + eElement.getAttribute("id"));
-				System.out.print("\tname: " + eElement.getAttribute("name"));
-				System.out.print("\t\tstatus : " + eElement.getAttribute("status"));
-				System.out.println("\talliance : " + eElement.getAttribute("alliance"));
+				// System.out.println("\nCurrent Element :" +
+				// nNode.getNodeName());
 
-				// System.out.println("alliance : " +
-				// eElement.getElementsByTagName("alliance").item(0).getTextContent());
+				if (nNode.getNodeType() == Node.ELEMENT_NODE) {
+
+					Element eElement = (Element) nNode;
+
+					Integer id = Integer.parseInt(eElement.getAttribute("id"));
+					String name = eElement.getAttribute("name");
+					String status = eElement.getAttribute("status");
+					Integer alliance = (eElement.getAttribute("alliance").trim().length() == 0) ? null : Integer.parseInt(eElement.getAttribute("alliance"));
+					Integer dayid = 20170509;
+
+					System.out.print("id: " + eElement.getAttribute("id"));
+					System.out.print("\tname: " + eElement.getAttribute("name"));
+					System.out.print("\t\tstatus : " + eElement.getAttribute("status"));
+					System.out.println("\talliance : " + eElement.getAttribute("alliance"));
+
+					// System.out.println("alliance : " +
+					// eElement.getElementsByTagName("alliance").item(0).getTextContent());
+
+					PreparedStatement preparedStatement = c.prepareStatement(insertTableSQL);
+					preparedStatement.setInt(1, id);
+					preparedStatement.setString(2, name);
+					preparedStatement.setString(3, status);
+					if (alliance != null)
+						preparedStatement.setInt(4, alliance);
+					else
+						preparedStatement.setNull(4, Types.INTEGER);
+					preparedStatement.setInt(5, dayid);
+
+					preparedStatement.executeUpdate();
+				}
 			}
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
 
 	}
