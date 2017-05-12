@@ -15,9 +15,9 @@ import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
-public class PlayerFileLoader extends FileLoader {
+public class ScoreFileLoader extends FileLoader {
 
-	public PlayerFileLoader(String server) throws MalformedURLException {
+	public ScoreFileLoader(String server) throws MalformedURLException {
 		// super(new
 		// URL("https://s136-us.ogame.gameforge.com/api/players.xml"));
 		super(new URL("https://" + server + ".ogame.gameforge.com/api/players.xml"));
