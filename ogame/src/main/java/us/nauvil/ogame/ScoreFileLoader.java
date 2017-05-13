@@ -17,10 +17,11 @@ import org.w3c.dom.NodeList;
 
 public class ScoreFileLoader extends FileLoader {
 
-	public ScoreFileLoader(String server) throws MalformedURLException {
-		// super(new
-		// URL("https://s136-us.ogame.gameforge.com/api/players.xml"));
-		super(new URL("https://" + server + ".ogame.gameforge.com/api/players.xml"));
+	private Integer playerId;
+
+	public ScoreFileLoader(String server, Integer playerId) throws MalformedURLException {
+		super(new URL("https://" + server + ".ogame.gameforge.com/api/playerData.xml?id=" + playerId));
+		this.playerId = playerId;
 	}
 
 	@Override
@@ -38,14 +39,13 @@ public class ScoreFileLoader extends FileLoader {
 			e.printStackTrace();
 		}
 
-		String insertTableSQL = "INSERT INTO players" + "(ID, NAME, STATUS, ALLIANCE, DAYID) VALUES" + "(?,?,?,?,?)";
 		String insertScoreSQL = "INSERT INTO scores" + "(playerId, dayId, total, economy, research, military, militaryBuilt, militaryDestroyed, militaryLost, militaryShips, honor) VALUES" + "(?,?,?,?,?)";
 
 		try (Connection c = DriverManager.getConnection("jdbc:postgresql://localhost:5432/postgres", "postgres", "viper21")) {
 			c.setAutoCommit(true);
 			System.out.println("Opened database successfully");
 
-			NodeList nList = document.getElementsByTagName("player");
+			NodeList nList = document.getElementsByTagName("position");
 
 			System.out.println("----------------------------");
 
@@ -59,45 +59,59 @@ public class ScoreFileLoader extends FileLoader {
 				if (nNode.getNodeType() == Node.ELEMENT_NODE) {
 
 					Element eElement = (Element) nNode;
+					Integer score = Integer.parseInt(eElement.getAttribute("score"));
+					Integer type = Integer.parseInt(eElement.getAttribute("type"));
 
-					Integer id = Integer.parseInt(eElement.getAttribute("id"));
-					String name = eElement.getAttribute("name");
-					String status = eElement.getAttribute("status");
-					Integer alliance = (eElement.getAttribute("alliance").trim().length() == 0) ? null : Integer.parseInt(eElement.getAttribute("alliance"));
+					Integer rank = Integer.parseInt(eElement.getTextContent());
 
-					// System.out.print("id: " + eElement.getAttribute("id"));
-					// System.out.print("\tname: " +
-					// eElement.getAttribute("name"));
-					// System.out.print("\t\tstatus : " +
-					// eElement.getAttribute("status"));
-					// System.out.println("\talliance : " +
-					// eElement.getAttribute("alliance"));
+					try (PreparedStatement preparedStatement = c.prepareStatement(insertScoreSQL)) {
+						preparedStatement.setInt(1, this.playerId);
+						preparedStatement.setInt(2, dayId);
 
-					// System.out.println("alliance : " +
-					// eElement.getElementsByTagName("alliance").item(0).getTextContent());
-
-					try (PreparedStatement preparedStatement = c.prepareStatement(insertTableSQL)) {
-						preparedStatement.setInt(1, id);
-						preparedStatement.setString(2, name);
-						preparedStatement.setString(3, status);
-						if (alliance != null) {
-							preparedStatement.setInt(4, alliance);
-						} else {
-							preparedStatement.setNull(4, Types.INTEGER);
+						switch (type) {
+						case 0:
+							preparedStatement.setInt(3, score);
+							break;
+						case 1:
+							preparedStatement.setInt(4, score);
+							break;
+						case 2:
+							preparedStatement.setInt(5, score);
+							break;
+						case 3:
+							preparedStatement.setInt(6, score);
+							Integer ships = (eElement.getAttribute("ships").length() == 0) ? null : Integer.parseInt(eElement.getAttribute("ships"));
+							if (ships == null) {
+								preparedStatement.setNull(6, Types.INTEGER);
+							} else {
+								preparedStatement.setInt(10, ships);
+							}
+							break;
+						case 4:
+							preparedStatement.setInt(7, score);
+							break;
+						case 5:
+							preparedStatement.setInt(8, score);
+							break;
+						case 6:
+							preparedStatement.setInt(9, score);
+							break;
+						case 7:
+							preparedStatement.setInt(11, score);
+							break;
 						}
-						preparedStatement.setInt(5, dayId);
 
 						preparedStatement.executeUpdate();
-					}
-					catch( SQLException s )
-					{
-						if(s.getSQLState().equals("23000")) {
+					} catch (SQLException s) {
+						if (s.getSQLState().equals("23000")) {
 							System.out.println("duplicate key");
-						}
-						else {
+						} else {
 							s.printStackTrace();
 						}
 					}
+
+					// eElement.getElementsByTagName("alliance").item(0).getTextContent());
+
 				}
 			}
 		} catch (SQLException e) {

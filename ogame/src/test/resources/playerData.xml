@@ -1,4 +1,5 @@
 <!-- https://s136-us.ogame.gameforge.com/api/playerData.xml?id=104946 -->
+<!-- type Name for highscore 0 Total, 1 Economy, 2 Research, 3 Military, 5 Military Built, 6 Military Destroyed, 4 Military Lost, 7 Honor -->
 <?xml version="1.0" encoding="UTF-8"?>
 <playerData id="104946" name="pitdingo"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
