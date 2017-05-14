@@ -26,15 +26,11 @@ public abstract class Dao<T> {
 
 	protected abstract void doInsert(PreparedStatement preparedStatement, T t) throws SQLException;
 
-	public void insert(T t) {
-		try (PreparedStatement preparedStatement = this.getConnection().prepareStatement(this.getInsertSql())) {
-			this.doInsert(preparedStatement, t);
-			preparedStatement.executeUpdate();
-		} catch (SQLException s) {
-			if (s.getSQLState().equals("23000")) {
-				System.out.println("duplicate key");
-			} else {
-				s.printStackTrace();
+	public void insert(T t) throws SQLException {
+		try (Connection c = this.getConnection()) {
+			try (PreparedStatement preparedStatement = this.getConnection().prepareStatement(this.getInsertSql())) {
+				this.doInsert(preparedStatement, t);
+				preparedStatement.executeUpdate();
 			}
 		}
 

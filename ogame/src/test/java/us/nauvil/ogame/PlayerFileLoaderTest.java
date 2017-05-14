@@ -13,6 +13,5 @@ public class PlayerFileLoaderTest {
 	public void fetchURL() throws IOException, ParserConfigurationException, SAXException {
 		FileLoader f = new PlayerFileLoader("s136-us");
 		f.readXml();
-
 	}
 }

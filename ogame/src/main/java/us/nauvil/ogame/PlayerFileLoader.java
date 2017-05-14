@@ -3,7 +3,9 @@ package us.nauvil.ogame;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -12,8 +14,15 @@ import org.w3c.dom.NodeList;
 
 public class PlayerFileLoader extends FileLoader {
 
+	private List<Player> players;
+
 	public PlayerFileLoader(String server) throws MalformedURLException {
 		super(new URL("https://" + server + ".ogame.gameforge.com/api/players.xml"));
+		this.players = new ArrayList<Player>(1024);
+	}
+
+	public List<Player> getPlayers() {
+		return players;
 	}
 
 	@Override
@@ -36,8 +45,7 @@ public class PlayerFileLoader extends FileLoader {
 				p.setAlliance((eElement.getAttribute("alliance").trim().length() == 0) ? null : Integer.parseInt(eElement.getAttribute("alliance")));
 				p.setDayId(dayId);
 
-				PlayerDao playerDao = new PlayerDao();
-				playerDao.insert(p);
+				this.players.add(p);
 
 				System.out.println(p);
 			}
