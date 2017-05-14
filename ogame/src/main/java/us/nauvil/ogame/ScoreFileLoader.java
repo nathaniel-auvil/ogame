@@ -42,7 +42,7 @@ public class ScoreFileLoader extends FileLoader {
 
 		String insertScoreSQL = "INSERT INTO scores" + "(playerId, dayId, total, economy, research, military, militaryBuilt, militaryDestroyed, militaryLost, militaryShips, honor) VALUES" + "(?,?,?,?,?,?,?,?,?,?,?)";
 
-		try (Connection c = DriverManager.getConnection("jdbc:postgresql://localhost:5432/postgres", "postgres", "viper21")) {
+		try (Connection c = DriverManager.getConnection("jdbc:postgresql://localhost:5432/postgres", "postgres", "password")) {
 			c.setAutoCommit(true);
 			System.out.println("Opened database successfully");
 
