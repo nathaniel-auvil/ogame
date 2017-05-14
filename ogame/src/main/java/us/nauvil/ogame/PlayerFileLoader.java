@@ -1,5 +1,7 @@
 package us.nauvil.ogame;
 
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.sql.Connection;
@@ -10,21 +12,27 @@ import java.sql.Types;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+import javax.xml.parsers.ParserConfigurationException;
+
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
+import org.xml.sax.SAXException;
 
 public class PlayerFileLoader extends FileLoader {
+
+	private String server;
 
 	public PlayerFileLoader(String server) throws MalformedURLException {
 		// super(new
 		// URL("https://s136-us.ogame.gameforge.com/api/players.xml"));
 		super(new URL("https://" + server + ".ogame.gameforge.com/api/players.xml"));
+		this.server = server;
 	}
 
 	@Override
-	protected void process(Document document) {
+	protected void process(Document document) throws MalformedURLException {
 
 		// System.out.println("timestamp: " +
 		// document.getDocumentElement().getAttribute("timestamp"));
@@ -88,19 +96,32 @@ public class PlayerFileLoader extends FileLoader {
 						preparedStatement.setInt(5, dayId);
 
 						preparedStatement.executeUpdate();
-					}
-					catch( SQLException s )
-					{
-						if(s.getSQLState().equals("23000")) {
+					} catch (SQLException s) {
+						if (s.getSQLState().equals("23000")) {
 							System.out.println("duplicate key");
-						}
-						else {
+						} else {
 							s.printStackTrace();
 						}
+					}
+
+					try {
+						ScoreFileLoader score = new ScoreFileLoader(this.server, id);
+						score.readXml();
+					} catch (FileNotFoundException f) {
+						System.out.println(f.getMessage());
 					}
 				}
 			}
 		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (ParserConfigurationException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (SAXException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}

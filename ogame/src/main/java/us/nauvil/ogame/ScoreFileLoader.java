@@ -22,6 +22,7 @@ public class ScoreFileLoader extends FileLoader {
 	public ScoreFileLoader(String server, Integer playerId) throws MalformedURLException {
 		super(new URL("https://" + server + ".ogame.gameforge.com/api/playerData.xml?id=" + playerId));
 		this.playerId = playerId;
+		System.out.println(playerId);
 	}
 
 	@Override
@@ -39,7 +40,7 @@ public class ScoreFileLoader extends FileLoader {
 			e.printStackTrace();
 		}
 
-		String insertScoreSQL = "INSERT INTO scores" + "(playerId, dayId, total, economy, research, military, militaryBuilt, militaryDestroyed, militaryLost, militaryShips, honor) VALUES" + "(?,?,?,?,?)";
+		String insertScoreSQL = "INSERT INTO scores" + "(playerId, dayId, total, economy, research, military, militaryBuilt, militaryDestroyed, militaryLost, militaryShips, honor) VALUES" + "(?,?,?,?,?,?,?,?,?,?,?)";
 
 		try (Connection c = DriverManager.getConnection("jdbc:postgresql://localhost:5432/postgres", "postgres", "viper21")) {
 			c.setAutoCommit(true);

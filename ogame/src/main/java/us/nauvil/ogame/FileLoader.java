@@ -3,6 +3,7 @@ package us.nauvil.ogame;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.net.MalformedURLException;
 import java.net.URL;
 
 import javax.xml.parsers.DocumentBuilder;
@@ -52,5 +53,5 @@ public abstract class FileLoader {
 		this.process(doc);
 	}
 
-	abstract protected void process(Document docuemnt);
+	abstract protected void process(Document docuemnt) throws MalformedURLException;
 }
