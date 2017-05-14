@@ -33,6 +33,5 @@ public abstract class Dao<T> {
 				preparedStatement.executeUpdate();
 			}
 		}
-
 	}
 }
