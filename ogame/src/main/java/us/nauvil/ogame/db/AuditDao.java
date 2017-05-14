@@ -1,4 +1,4 @@
-package us.nauvil.ogame;
+package us.nauvil.ogame.db;
 
 public class AuditDao {
 

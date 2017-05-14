@@ -1,8 +1,10 @@
-package us.nauvil.ogame;
+package us.nauvil.ogame.db;
 
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.sql.Types;
+
+import us.nauvil.ogame.Player;
 
 public class PlayerDao extends Dao<Player> {
 

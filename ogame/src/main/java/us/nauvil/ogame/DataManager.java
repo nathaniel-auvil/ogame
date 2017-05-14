@@ -7,6 +7,8 @@ import javax.xml.parsers.ParserConfigurationException;
 
 import org.xml.sax.SAXException;
 
+import us.nauvil.ogame.db.PlayerDao;
+
 public class DataManager {
 
 	public void loadApiData() throws ParserConfigurationException, SAXException, IOException, SQLException {

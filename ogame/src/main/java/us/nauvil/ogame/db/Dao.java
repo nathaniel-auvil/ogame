@@ -1,4 +1,4 @@
-package us.nauvil.ogame;
+package us.nauvil.ogame.db;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -11,7 +11,6 @@ public abstract class Dao<T> {
 		try {
 			Class.forName("org.postgresql.Driver");
 		} catch (ClassNotFoundException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}

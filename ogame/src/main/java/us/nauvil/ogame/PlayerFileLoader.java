@@ -34,7 +34,6 @@ public class PlayerFileLoader extends FileLoader {
 		for (int temp = 0; temp < nList.getLength(); temp++) {
 
 			Node nNode = nList.item(temp);
-
 			if (nNode.getNodeType() == Node.ELEMENT_NODE) {
 				Element eElement = (Element) nNode;
 
@@ -46,9 +45,7 @@ public class PlayerFileLoader extends FileLoader {
 				p.setDayId(dayId);
 
 				this.players.add(p);
-
 				System.out.println(p);
-
 			}
 		}
 
