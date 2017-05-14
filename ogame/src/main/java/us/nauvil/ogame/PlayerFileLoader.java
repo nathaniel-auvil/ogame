@@ -18,7 +18,7 @@ public class PlayerFileLoader extends FileLoader {
 
 	public PlayerFileLoader(String server) throws MalformedURLException {
 		super(new URL("https://" + server + ".ogame.gameforge.com/api/players.xml"));
-		this.players = new ArrayList<Player>(1024);
+		this.players = new ArrayList<Player>(4096);
 	}
 
 	public List<Player> getPlayers() {
@@ -48,8 +48,11 @@ public class PlayerFileLoader extends FileLoader {
 				this.players.add(p);
 
 				System.out.println(p);
+
 			}
 		}
+
+		System.out.println("=============== dayId: " + dayId + "   number of players: " + this.players.size());
 	}
 
 }
