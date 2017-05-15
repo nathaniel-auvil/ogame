@@ -96,5 +96,27 @@ public class ScoreFileLoader extends FileLoader {
 
 		System.out.println(s);
 		this.scores.add(s);
+
+		// --------------------------------
+		nList = document.getElementsByTagName("planet");
+		for (int temp = 0; temp < nList.getLength(); temp++) {
+
+			// <planet id="33634942" name="Michigan" coords="3:18:12" />
+			Planet p = new Planet();
+			p.setPlayerId(this.playerId);
+			p.setDayId(dayId);
+
+			Node nNode = nList.item(temp);
+			if (nNode.getNodeType() == Node.ELEMENT_NODE) {
+				Element eElement = (Element) nNode;
+
+				p.setPlanetId(Integer.parseInt(eElement.getAttribute("id")));
+				p.setName(eElement.getAttribute("name"));
+				p.setCoords(eElement.getAttribute("coords"));
+			}
+
+			System.out.println(p);
+		}
+
 	}
 }
