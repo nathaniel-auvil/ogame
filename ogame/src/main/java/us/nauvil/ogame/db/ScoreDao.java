@@ -8,7 +8,7 @@ import us.nauvil.ogame.Score;
 public class ScoreDao extends Dao<Score> {
 
 	public String getInsertSql() {
-		return "INSERT INTO scores" + "(playerId,dayId,total,totalRank,economy,economyRank,research,researchRank,military,militaryRank,ships,militaryBuilt,militaryBuiltRank,militaryDestroyed,militaryDestroyedRank,militaryLost,militaryLostRank,honor,honorRank) VALUES" + "(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
+		return "INSERT INTO planets" + "(playerId,dayId,total,totalRank,economy,economyRank,research,researchRank,military,militaryRank,ships,militaryBuilt,militaryBuiltRank,militaryDestroyed,militaryDestroyedRank,militaryLost,militaryLostRank,honor,honorRank) VALUES" + "(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
 	}
 
 	@Override
