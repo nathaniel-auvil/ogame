@@ -2,28 +2,41 @@ package us.nauvil.ogame.db;
 
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
-import java.sql.Types;
 
-import us.nauvil.ogame.Player;
+import us.nauvil.ogame.Score;
 
-public class ScoreDao extends Dao<Player> {
+public class ScoreDao extends Dao<Score> {
 
 	public String getInsertSql() {
-		return "INSERT INTO scores" + "(playerId, dayId, total, economy, research, military, militaryBuilt, militaryDestroyed, militaryLost, militaryShips, honor) VALUES" + "(?,?,?,?,?,?,?,?,?,?,?)";
-
+		return "INSERT INTO scores" + "(playerId,dayId,total,totalRank,economy,economyRank,research,researchRank,military,militaryRank,ships,militaryBuilt,militaryBuiltRank,militaryDestroyed,militaryDestroyedRank,militaryLost,militaryLostRank,honor,honorRank) VALUES" + "(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
 	}
 
 	@Override
-	protected void doInsert(PreparedStatement preparedStatement, Player t) throws SQLException {
-		preparedStatement.setInt(1, t.getId());
-		preparedStatement.setInt(2, t.getDayId());
-		preparedStatement.setString(2, t.getName());
-		preparedStatement.setString(3, t.getStatus());
-		if (t.getAlliance() != null) {
-			preparedStatement.setInt(4, t.getAlliance());
-		} else {
-			preparedStatement.setNull(4, Types.INTEGER);
-		}
-		
+	protected void doInsert(PreparedStatement preparedStatement, Score s) throws SQLException {
+		preparedStatement.setInt(1, s.getPlayerId());
+		preparedStatement.setInt(2, s.getDayId());
+		preparedStatement.setInt(3, s.getTotal());
+		preparedStatement.setInt(4, s.getTotalRank());
+		preparedStatement.setInt(5, s.getEconomy());
+		preparedStatement.setInt(6, s.getEconomyRank());
+		preparedStatement.setInt(7, s.getResearch());
+		preparedStatement.setInt(8, s.getResearchRank());
+		preparedStatement.setInt(9, s.getMilitary());
+		preparedStatement.setInt(10, s.getMilitaryRank());
+		preparedStatement.setInt(11, s.getShips());
+		preparedStatement.setInt(12, s.getMilitaryBuilt());
+		preparedStatement.setInt(13, s.getMilitaryBuiltRank());
+		preparedStatement.setInt(14, s.getMilitaryDestroyed());
+		preparedStatement.setInt(15, s.getMilitaryDestroyedRank());
+		preparedStatement.setInt(16, s.getMilitaryLost());
+		preparedStatement.setInt(17, s.getMilitaryLostRank());
+		preparedStatement.setInt(18, s.getHonor());
+		preparedStatement.setInt(19, s.getHonorRank());
+
+		/*
+		 * if (t.getAlliance() != null) { preparedStatement.setInt(4,
+		 * t.getAlliance()); } else { preparedStatement.setNull(4,
+		 * Types.INTEGER); }
+		 */
 	}
 }

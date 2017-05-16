@@ -15,13 +15,21 @@ import org.w3c.dom.NodeList;
 public class ScoreFileLoader extends FileLoader {
 
 	private Integer playerId;
-	private List<Score> scores;
+	private Score s;
+	private List<Planet> planets;
 
 	public ScoreFileLoader(String server, Integer playerId) throws MalformedURLException {
 		super(new URL("https://" + server + ".ogame.gameforge.com/api/playerData.xml?id=" + playerId));
 		this.playerId = playerId;
+		this.planets = new ArrayList<Planet>();
+	}
 
-		this.scores = new ArrayList<Score>(4096);
+	public Score getS() {
+		return s;
+	}
+
+	public List<Planet> getPlanets() {
+		return planets;
 	}
 
 	@Override
@@ -29,9 +37,9 @@ public class ScoreFileLoader extends FileLoader {
 		SimpleDateFormat format = new SimpleDateFormat("yyyyMMdd");
 		Integer dayId = Integer.parseInt(format.format(new Date(Long.parseLong(document.getDocumentElement().getAttribute("timestamp") + "000"))));
 
-		Score s = new Score();
-		s.setDayId(dayId);
-		s.setPlayerId(playerId);
+		this.s = new Score();
+		this.s.setDayId(dayId);
+		this.s.setPlayerId(playerId);
 
 		NodeList nList = document.getElementsByTagName("position");
 		for (int temp = 0; temp < nList.getLength(); temp++) {
@@ -95,7 +103,7 @@ public class ScoreFileLoader extends FileLoader {
 		}
 
 		System.out.println(s);
-		this.scores.add(s);
+		// this.scores.add(s);
 
 		// --------------------------------
 		nList = document.getElementsByTagName("planet");
@@ -103,6 +111,7 @@ public class ScoreFileLoader extends FileLoader {
 
 			// <planet id="33634942" name="Michigan" coords="3:18:12" />
 			Planet p = new Planet();
+			this.planets.add(p);
 			p.setPlayerId(this.playerId);
 			p.setDayId(dayId);
 
