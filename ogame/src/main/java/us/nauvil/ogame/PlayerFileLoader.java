@@ -7,6 +7,8 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
@@ -14,6 +16,7 @@ import org.w3c.dom.NodeList;
 
 public class PlayerFileLoader extends FileLoader {
 
+	private static final Logger logger = LogManager.getLogger(PlayerFileLoader.class);
 	private List<Player> players;
 
 	public PlayerFileLoader(String server) throws MalformedURLException {
@@ -45,11 +48,12 @@ public class PlayerFileLoader extends FileLoader {
 				p.setDayId(dayId);
 
 				this.players.add(p);
-				System.out.println(p);
+				if (logger.isDebugEnabled())
+					logger.debug(p);
 			}
 		}
 
-		System.out.println("=============== dayId: " + dayId + "   number of players: " + this.players.size());
+		logger.info("=============== dayId: " + dayId + "   number of players: " + this.players.size());
 	}
 
 }
