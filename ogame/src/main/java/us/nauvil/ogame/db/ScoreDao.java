@@ -8,35 +8,30 @@ import us.nauvil.ogame.Score;
 public class ScoreDao extends Dao<Score> {
 
 	public String getInsertSql() {
-		return "INSERT INTO planets" + "(playerId,dayId,total,totalRank,economy,economyRank,research,researchRank,military,militaryRank,ships,militaryBuilt,militaryBuiltRank,militaryDestroyed,militaryDestroyedRank,militaryLost,militaryLostRank,honor,honorRank) VALUES" + "(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
+		return "INSERT INTO scores" + "(playerId,dayId,total,totalRank,economy,economyRank,research,researchRank,military,militaryRank,ships,militaryBuilt,militaryBuiltRank,militaryDestroyed,militaryDestroyedRank,militaryLost,militaryLostRank,honor,honorRank) VALUES" + "(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
 	}
 
 	@Override
 	protected void doInsert(PreparedStatement preparedStatement, Score s) throws SQLException {
 		preparedStatement.setInt(1, s.getPlayerId());
 		preparedStatement.setInt(2, s.getDayId());
-		preparedStatement.setInt(3, s.getTotal());
-		preparedStatement.setInt(4, s.getTotalRank());
-		preparedStatement.setInt(5, s.getEconomy());
-		preparedStatement.setInt(6, s.getEconomyRank());
-		preparedStatement.setInt(7, s.getResearch());
-		preparedStatement.setInt(8, s.getResearchRank());
-		preparedStatement.setInt(9, s.getMilitary());
-		preparedStatement.setInt(10, s.getMilitaryRank());
-		preparedStatement.setInt(11, s.getShips());
-		preparedStatement.setInt(12, s.getMilitaryBuilt());
-		preparedStatement.setInt(13, s.getMilitaryBuiltRank());
-		preparedStatement.setInt(14, s.getMilitaryDestroyed());
-		preparedStatement.setInt(15, s.getMilitaryDestroyedRank());
-		preparedStatement.setInt(16, s.getMilitaryLost());
-		preparedStatement.setInt(17, s.getMilitaryLostRank());
-		preparedStatement.setInt(18, s.getHonor());
-		preparedStatement.setInt(19, s.getHonorRank());
-
-		/*
-		 * if (t.getAlliance() != null) { preparedStatement.setInt(4,
-		 * t.getAlliance()); } else { preparedStatement.setNull(4,
-		 * Types.INTEGER); }
-		 */
+		super.safeInsert(preparedStatement, 3, s.getTotal());
+		super.safeInsert(preparedStatement, 4, s.getTotalRank());
+		super.safeInsert(preparedStatement, 5, s.getEconomy());
+		super.safeInsert(preparedStatement, 6, s.getEconomyRank());
+		super.safeInsert(preparedStatement, 7, s.getResearch());
+		super.safeInsert(preparedStatement, 8, s.getResearchRank());
+		super.safeInsert(preparedStatement, 9, s.getMilitary());
+		super.safeInsert(preparedStatement, 10, s.getMilitaryRank());
+		super.safeInsert(preparedStatement, 11, s.getShips());
+		super.safeInsert(preparedStatement, 12, s.getMilitaryBuilt());
+		super.safeInsert(preparedStatement, 13, s.getMilitaryBuiltRank());
+		super.safeInsert(preparedStatement, 14, s.getMilitaryDestroyed());
+		super.safeInsert(preparedStatement, 15, s.getMilitaryDestroyedRank());
+		super.safeInsert(preparedStatement, 16, s.getMilitaryLost());
+		super.safeInsert(preparedStatement, 17, s.getMilitaryLostRank());
+		super.safeInsert(preparedStatement, 18, s.getHonor());
+		super.safeInsert(preparedStatement, 19, s.getHonorRank());
 	}
+
 }

@@ -73,7 +73,15 @@ public class ScoreFileLoader extends FileLoader {
 				case 3:
 					s.setMilitary(score);
 					s.setMilitaryRank(rank);
-					s.setShips((eElement.getAttribute("ships") == null) ? null : Integer.parseInt(eElement.getAttribute("ships")));
+
+					String ships = eElement.getAttribute("ships");
+					Integer numShips = null;
+					if (ships != null) {
+						ships = ships.trim();
+						if (ships.length() > 0)
+							numShips = Integer.parseInt(ships);
+					}
+					s.setShips(numShips);
 					/*
 					 * Integer ships = (eElement.getAttribute("ships").length()
 					 * == 0) ? null :

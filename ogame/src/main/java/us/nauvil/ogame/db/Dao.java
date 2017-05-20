@@ -4,6 +4,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
+import java.sql.Types;
 
 public abstract class Dao<T> {
 
@@ -31,6 +32,14 @@ public abstract class Dao<T> {
 				this.doInsert(preparedStatement, t);
 				preparedStatement.executeUpdate();
 			}
+		}
+	}
+
+	protected void safeInsert(PreparedStatement preparedStatement, int index, Integer value) throws SQLException {
+		if (value != null) {
+			preparedStatement.setInt(index, value);
+		} else {
+			preparedStatement.setNull(index, Types.INTEGER);
 		}
 	}
 }

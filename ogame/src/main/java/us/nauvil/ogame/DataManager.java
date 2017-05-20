@@ -26,7 +26,8 @@ public class DataManager {
 			ScoreFileLoader scoreFileLoader = new ScoreFileLoader(server, p.getId());
 			scoreFileLoader.readXml();
 			ScoreDao scoreDao = new ScoreDao();
-			scoreDao.insert(scoreFileLoader.getS());
+			if (scoreFileLoader.getS() != null)
+				scoreDao.insert(scoreFileLoader.getS());
 		}
 	}
 }

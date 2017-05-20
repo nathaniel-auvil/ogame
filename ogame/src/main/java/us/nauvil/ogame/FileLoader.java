@@ -1,6 +1,7 @@
 package us.nauvil.ogame;
 
 import java.io.BufferedReader;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.MalformedURLException;
@@ -29,25 +30,35 @@ public abstract class FileLoader {
 			String inputLine;
 			while ((inputLine = in.readLine()) != null)
 				s.append(inputLine);
+		} catch (FileNotFoundException f) {
+			System.out.println("not found: " + this.url.toString());
 		}
 
 		return s.toString();
 	}
 
-	public void readXml() throws ParserConfigurationException, SAXException, IOException {
+	public void readXml() throws ParserConfigurationException, SAXException {
 
 		DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
 		DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
-		Document doc = dBuilder.parse(this.url.openStream());
 
-		// optional, but recommended
-		// read this -
-		// http://stackoverflow.com/questions/13786607/normalization-in-dom-parsing-with-java-how-does-it-work
-		doc.getDocumentElement().normalize();
+		Document doc;
+		try {
+			doc = dBuilder.parse(this.url.openStream());
 
-		System.out.println("Root element :" + doc.getDocumentElement().getNodeName());
+			// optional, but recommended
+			// read this -
+			// http://stackoverflow.com/questions/13786607/normalization-in-dom-parsing-with-java-how-does-it-work
+			doc.getDocumentElement().normalize();
 
-		this.process(doc);
+			// System.out.println("Root element :" +
+			// doc.getDocumentElement().getNodeName());
+
+			this.process(doc);
+
+		} catch (IOException e) {
+			System.out.println("not found: " + this.url.toString());
+		}
 	}
 
 	abstract protected void process(Document docuemnt) throws MalformedURLException;
