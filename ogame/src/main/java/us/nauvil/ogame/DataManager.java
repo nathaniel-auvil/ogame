@@ -7,6 +7,7 @@ import javax.xml.parsers.ParserConfigurationException;
 
 import org.xml.sax.SAXException;
 
+import us.nauvil.ogame.db.PlanetDao;
 import us.nauvil.ogame.db.PlayerDao;
 import us.nauvil.ogame.db.ScoreDao;
 
@@ -25,9 +26,14 @@ public class DataManager {
 
 			ScoreFileLoader scoreFileLoader = new ScoreFileLoader(server, p.getId());
 			scoreFileLoader.readXml();
-			ScoreDao scoreDao = new ScoreDao();
-			if (scoreFileLoader.getS() != null)
-				scoreDao.insert(scoreFileLoader.getS());
+			Score score = scoreFileLoader.getS();
+
+			if (score != null) {
+				ScoreDao scoreDao = new ScoreDao();
+				scoreDao.insert(score);
+				PlanetDao planetDao = new PlanetDao();
+				planetDao.insert(scoreFileLoader.getPlanets());
+			}
 		}
 	}
 }

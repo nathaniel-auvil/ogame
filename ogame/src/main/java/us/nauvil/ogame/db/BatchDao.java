@@ -5,8 +5,9 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.sql.Types;
+import java.util.List;
 
-public abstract class Dao<T> {
+public abstract class BatchDao<T> {
 
 	static {
 		try {
@@ -24,13 +25,13 @@ public abstract class Dao<T> {
 
 	public abstract String getInsertSql();
 
-	protected abstract void doInsert(PreparedStatement preparedStatement, T t) throws SQLException;
+	protected abstract void doInsert(PreparedStatement preparedStatement, List<T> t) throws SQLException;
 
-	public void insert(T t) throws SQLException {
+	public void insert(List<T> t) throws SQLException {
 		try (Connection c = this.getConnection()) {
 			try (PreparedStatement preparedStatement = c.prepareStatement(this.getInsertSql())) {
 				this.doInsert(preparedStatement, t);
-				preparedStatement.executeUpdate();
+				preparedStatement.executeBatch();
 			}
 		}
 	}

@@ -1,7 +1,5 @@
 package us.nauvil.ogame;
 
-import java.util.List;
-
 public class Score {
 
 	// 0 Total, 1 Economy, 2 Research, 3 Military, 5 Military Built, 6 Military
@@ -27,20 +25,10 @@ public class Score {
 	private Integer honor;
 	private Integer honorRank;
 
-	private List<Planet> planets;
-
 	@Override
 	public String toString() {
 		return "Score [playerId=" + playerId + ", dayId=" + dayId + ", total=" + total + ", totalRank=" + totalRank + ", economy=" + economy + ", economyRank=" + economyRank + ", research=" + research + ", researchRank=" + researchRank + ", military=" + military + ", militaryRank=" + militaryRank + ", ships=" + ships + ", militaryBuilt=" + militaryBuilt + ", militaryBuiltRank=" + militaryBuiltRank + ", militaryDestroyed=" + militaryDestroyed + ", militaryDestroyedRank=" + militaryDestroyedRank
-				+ ", militaryLost=" + militaryLost + ", militaryLostRank=" + militaryLostRank + ", honor=" + honor + ", honorRank=" + honorRank + ", planets=" + planets + "]";
-	}
-
-	public List<Planet> getPlanets() {
-		return planets;
-	}
-
-	public void setPlanets(List<Planet> planets) {
-		this.planets = planets;
+				+ ", militaryLost=" + militaryLost + ", militaryLostRank=" + militaryLostRank + ", honor=" + honor + ", honorRank=" + honorRank + "]";
 	}
 
 	public Integer getPlayerId() {

@@ -9,3 +9,6 @@ CREATE TABLE public.players
     dayid integer NOT NULL,
     CONSTRAINT players_pkey PRIMARY KEY (dayid,id)
 )
+
+
+select * from players where name = 'Eeyore'

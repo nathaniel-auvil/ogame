@@ -11,7 +11,7 @@ public class ScoreFileLoaderTest {
 
 	@Test
 	public void fetchURL() throws IOException, ParserConfigurationException, SAXException {
-		FileLoader f = new ScoreFileLoader("s136-us", 104946);
+		FileLoader f = new ScoreFileLoader("s136-us", 100593);
 		f.readXml();
 	}
 }

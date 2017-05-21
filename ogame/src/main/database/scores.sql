@@ -24,3 +24,7 @@ CREATE TABLE public.scores
     dayId integer NOT NULL,
     CONSTRAINT scores_pkey PRIMARY KEY (playerId, dayId)
 )
+
+
+
+select * from scores where playerId = (select id from players where name = 'Eeyore')
